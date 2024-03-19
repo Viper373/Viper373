@@ -25,7 +25,9 @@ I'm Viper373, a passionate software developer who loves to build things that mat
 ## Projects
 
 🚀 League of Legends Pro League Data Analysis(https://github.com/Viper373/League-of-Legends-Pro-League-DataAnalytics)
-
+🚀 League of Legends Event Data Management System(https://github.com/Viper373/League-of-Legends-Event-Data-Management-System)
+🚀 Clustering Classification of Chengdu Music Comments(https://github.com/Viper373/Clustering-Classification-of-Chengdu-Music-Comments)
+🚀 BIPT-JWZX_eduAssess(https://github.com/Viper373/BIPT-JWZX_eduAssess)
 ## Get In Touch
 
 👉 If you want to reach out to me, you can connect with me via email at 2020311228@bipt.edu.cn. Let's build something awesome together! 😃
