@@ -1,6 +1,6 @@
 # Hi there! 👋
 
-I'm Viper373, a passionate python crawler person who loves to build things that better. 😎
+I'm Viper373, a passionate python crawler scholar who loves to build things that better. 😎
 
 ## About Me
 
