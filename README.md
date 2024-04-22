@@ -1,6 +1,6 @@
 # Hi there! 👋
 
-I'm Viper373, a passionate software developer who loves to build things that matter. 😎
+I'm Viper373, a passionate software coder who loves to build things that matter. 😎
 
 ## About Me
 
