@@ -1,6 +1,4 @@
-<img src="https://viper3-1318672778.cos.ap-beijing.myqcloud.com/user/Deft%E5%8D%81%E5%B9%B4%E7%A3%A8%E4%B8%80%E5%89%91%E5%A4%BA%E5%86%A0.jpg" height="120" width="120" style="border-radius: 15px;">
-
-[English](./README.md) | [简体中文](./README.zh.md)
+<img src="https://viper3-1318672778.cos.ap-beijing.myqcloud.com/user/Deft%E5%8D%81%E5%B9%B4%E7%A3%A8%E4%B8%80%E5%89%91%E5%A4%BA%E5%86%A0.jpg" alt="Viper373" style="width: 64px; height: auto; border-radius: 24px;"> | [English](./README.md) | [简体中文](./README.zh.md)
 
 # Hi there! 👋  
 
