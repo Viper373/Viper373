@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MySheep | 添加用户</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css" ><!--整体格式-->
+  <link href="/static/css/font-awesome.css" rel="stylesheet" type="text/css"><!--字体图标-->
+  <link href="/static/css/people.css" rel="stylesheet" type="text/css" ><!-- 头部格式-->
+</head>
+<body>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        {% for message in messages %}
+            <script type="text/javascript">alert("{{message}}");</script>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+<div class="navbar navbar-inverse navbar-fixed-top" style="position:fixed;">
+  <div class="navbar-inner">
+    <div class="container">
+      <div class="row">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="brand" href="/index"> <img src="/static/images/logo.png" alt="logo" class="logo" title="logo"> </a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li><a href="/Flask/ClockWeb/ClockWeb(美化)/static">首页</a></li>
+            <li><a href="https://blog.scumman.top">我的博客</a></li>
+          </ul>
+          <div class="login-tool pull-right logged">
+            <div class="btn-group">
+              <a class="btn dropdown-toggle" href="/UserInfo.html" style="padding-right:0;">
+                <img src="/static/images/user/{{session.userID}}.jpg" class="img-circle user-img">{{session.userID}}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+</div>
+<div class="container" style="margin-top:100px; margin-bottom:40px;">
+  <div class="row">
+    <!--左侧边栏 开始-->
+    <div class="span2 well side-card">
+      <div class="card-list">
+        <ul class="nav nav-list">
+          <li class="nav-header" style="margin-left:-30px;font-size:14px;">企业中心，暂时不知道改成什么，退出按钮可用</li>
+          <li><a href="#"><i class="fa fa-tags"></i> 企业信息</a></li>
+          <li class="divider" style="border-bottom:1px solid #e5e5e5"></li><!--分割条-->
+          <li name="services"><a href="UserInfo.html"><i class="fa fa-smile-o"></i> 用户管理</a></li>
+          <li name="services"><a href="#"><i class="fa  fa-bullhorn"></i> 广告管理</a></li>
+          <li name="services"><a href="#"><i class="fa  fa-calendar"></i> 任务管理</a></li>
+          <li class="divider" style="border-bottom:1px solid #e5e5e5"></li>
+          <li><a href ="/clear_session"><i class="fa fa-power-off"></i>退出账号</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--左侧边栏 结束-->
+      <!--中部信息显示 开始-->
+      <div class="span10 order_title">
+        <form action="/UpData?userID={{value[0]}}" method="post">
+            <div class="title">
+                基本信息<small>/学号不可更改</small>
+            </div>
+            <table>
+                <tr>
+                    <td>学号:<a style="color: red">*</a></td>
+                    <td>{{value[0]}}</td>
+                    <td>密码:<a style="color: red">*</a></td>
+                    <td><input type="password" placeholder="密码" name="password" value="{{value[1]}}" required="required"/></td>
+                </tr>
+                <tr>
+                    <td>邮箱:<a style="color: red">*</a></td>
+                    <td><input type="email" placeholder="邮箱" name="email" value="{{value[2]}}" required="required"/></td>
+                    <td>到期时间:<a style="color: red">*</a></td>
+                    <td><input type="datetime-local" placeholder="到期时间" name="expireDate" value="{{value[6]}}" required="required"/></td>
+                </tr>
+            </table>
+            <div class="title">
+                SMTP信息<small></small>
+            </div>
+            <table>
+                <tr>
+                    <td>服务器:</td>
+                    <td><input type="text" placeholder="SMTP服务商地址" name="smtpServer" value="{{value[3]}}"/></td>
+                    <td>邮箱地址:</td>
+                    <td><input type="email" placeholder="SMTP发件邮箱" name="smtpSender" value="{{value[4]}}"/></td>
+                </tr>
+                <tr>
+                    <td>密码:</td>
+                    <td><input type="password" placeholder="SMTP密码" name="smtpPassword" value="{{value[5]}}"/></td>
+                </tr>
+            </table>
+          <div style="margin: 20px 0px">
+              <button class="piliang btn" type="submit">提交</button>
+          </div>
+        </form>
+      </div>
+      <!--中部信息显示 结束-->
+  </div>
+</div>
+
+<!--页脚 开始-->
+    <h5 class="footer-title">
+      <strong>MySheep©2022版权所有</strong>
+      <div style="width:500px;margin:0 auto; padding:20px 0;">
+        <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+          <img src="https://blog.scumman.top/wp-content/uploads/2022/04/备案图标.png" style="float:left;">
+          <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:black;">京ICP备2022003555号-2</p>
+        </a>
+      </div>
+    </h5>
+<!--页脚 结束-->
+
+</body>
+</html>

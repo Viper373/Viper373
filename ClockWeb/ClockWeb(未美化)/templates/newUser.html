@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MySheep | 添加用户</title>
+</head>
+<body>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        {% for message in messages %}
+            <script type="text/javascript">alert("{{message}}");</script>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+    <form action="/Insert" method="post">
+        <div>
+
+            <a style="color: red">*</a>
+            用户名:
+            <input type="text" name="userID" value="" placeholder="用户名" size="20" autocapitalize="off" required="required">
+        </div>
+        <div>
+            <a style="color: red">*</a>
+            密码:
+            <input type="password" name="password" value="" placeholder="密码" size="20" required="required">
+        </div>
+        <div>
+            <a style="color: red">*</a>
+            邮箱:
+            <input type="email" name="email" value="" placeholder="邮箱" size="20" required="required">
+        </div>
+        <div>
+            smtp服务器:
+            <input type="text" name="smtpServer" value="" placeholder="smtp服务器" size="20">
+        </div>
+        <div>
+            smtp发送邮箱:
+            <input type="email" name="smtpSender" value="" placeholder="smtp发送邮箱" size="20">
+        </div>
+        <div>
+            smtp密码:
+            <input type="password" name="smtpPassword" value="" placeholder="smtp密码" size="20">
+        </div>
+        <div>
+            <a style="color: red">*</a>
+            到期时间:
+            <input type="datetime-local" name="expireDate" value="" size="20" required="required">
+        </div>
+        <div>
+            <button type="submit" >提交</button>
+        </div>
+    </form>
+</body>
+</html>

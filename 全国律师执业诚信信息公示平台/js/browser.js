@@ -1,0 +1,1 @@
+Object.defineProperties(navigator,{ webdriver:{ get: () => false } })

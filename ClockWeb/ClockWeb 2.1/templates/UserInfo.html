@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MySheep | 用户信息管理</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css" ><!--整体格式-->
+  <link href="/static/css/font-awesome.css" rel="stylesheet" type="text/css"><!--字体图标-->
+  <link href="/static/css/people.css" rel="stylesheet" type="text/css" ><!-- 头部格式-->
+</head>
+<body>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        {% for message in messages %}
+            <script type="text/javascript">alert("{{message}}");</script>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+<div class="navbar navbar-inverse navbar-fixed-top" style="position:fixed;">
+  <div class="navbar-inner">
+    <div class="container">
+      <div class="row">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span><span class="icon-bar"></span> </button>
+        <a class="brand" href="/Flask/ClockWeb/ClockWeb%202.1/static"> <img src="/static/images/logo.png" class="logo" > </a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li><a href="/Flask/ClockWeb/ClockWeb%202.1/static">首页</a></li>
+            <li><a href="https://blog.scumman.top">我的博客</a></li>
+          </ul>
+          <div class="login-tool pull-right logged">
+            <div class="btn-group">
+              <a class="btn dropdown-toggle" href="/UserInfo.html" style="padding-right:0;">
+                <img src="/static/images/user/{{session.userID}}.jpg" class="img-circle user-img">{{session.userID}}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+</div>
+
+<div class="container" style="margin-top:100px; margin-bottom:40px;">
+  <div class="row">
+
+    <!--左侧边栏 开始-->
+    <div class="span2 well side-card">
+      <div class="card-list">
+        <ul class="nav nav-list">
+          <li class="nav-header" style="margin-left:-30px;font-size:14px;">企业中心，暂时不知道改成什么，退出按钮可用</li>
+          <li><a href="#"><i class="fa fa-tags"></i> 企业信息</a></li>
+          <li class="divider" style="border-bottom:1px solid #e5e5e5"></li><!--分割条-->
+          <li name="services"><a href="UserInfo.html"><i class="fa fa-smile-o"></i> 用户管理</a></li>
+          <li name="services"><a href="#"><i class="fa  fa-bullhorn"></i> 广告管理</a></li>
+          <li name="services"><a href="#"><i class="fa  fa-calendar"></i> 任务管理</a></li>
+          <li class="divider" style="border-bottom:1px solid #e5e5e5"></li>
+          <li><a href ="/clear_session"><i class="fa fa-power-off"></i>退出账号</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--左侧边栏 结束-->
+    <div class="span10 order_title">
+      <!--中部信息显示 开始-->
+      <div class="title">
+        用户信息<small>/Information</small>
+          <div class="btn-group pull-right">
+            <a href="/Insert">
+              <button style="background:none;outline: none;" type="button" class="btn btn-small"><i class="fa fa-plus"></i> 新增</button>
+            </a>
+
+          </div>
+      </div>
+      <!--中部信息显示 结束-->
+
+      <!--用户信息查询框 开始-->
+      <form class="form" action="/Select" method="post">
+        <div class="form-group">
+          <div class="row">
+            <div class="btn-group span2">
+              <select style="background: none;outline: none;box-shadow:none;" name="Select_key" class="span2 btn search-btn btn-default dropdown-toggle ">
+                <option value="*">请选择关键字</option>
+                <option value="userID">用户名</option>
+                <option value="email">邮箱</option>
+                <option value="expireDate">到期时间</option>
+              </select>
+            </div>
+            <div class="input-append pull-right" style="margin-bottom:0;">
+              <input class="span2" placeholder="请输入..." type="text" style="height:34px;" name="Select_value" value="">
+              <button style="background:none;outline: none;" class="btn phone-search search-btn" type="submit"><i class="fa fa-search"></i> 查询</button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <!--用户信息查询框 结束-->
+
+      <!--用户信息表 开始-->
+      <form action='/Delete' method='post'>
+        <table class="table table-hover">
+          <thead>
+          <tr>
+            <td>选择</td>
+            <td>用户名</td>
+            <td>密码</td>
+            <td>邮箱</td>
+            <td>到期时间</td>
+            <td>操作数据</td>
+          </tr>
+          </thead>
+          <tbody>
+          {% for value in page_data %}
+          <tr>
+            <td>
+              <label class="checkbox">
+                <input type="checkbox" name='array_userID' value="{{ value.userID }}" >
+              </label>
+            </td>
+            <td>{{value.userID}}</td>
+            <td>{{value.password}}</td>
+            <td>{{value.email}}</td>
+            <td>{{value.expireDate}}</td>
+            <td>
+              <form action="/UpData_Page.html" method="post">
+                <button style="background:none;border:none;" type="submit" name="userID" value="{{ value.userID }}">
+                  <a class="editor">
+                    <i class="fa fa-edit">编辑</i>
+                  </a>
+                </button>
+              </form>
+            </td>
+          </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+        <div style="margin: 20px 0px ">
+          <button class="piliang btn" type="submit" onclick="return confirm('你确定要删除吗？');">
+            <i class="fa  fa-trash"> 删除用户</i>
+          </button>
+        </div>
+      </form>
+      <!--用户信息表 结束-->
+      <!--翻页 开始-->
+      <div class="pagination pull-right fenye">
+        <ul>
+          {% if paginate.has_prev %}
+          <li><a href="/UserInfo.html/?page={{ paginate.prev_num }}">Prev</a></li>
+          {% endif %}
+          {% for i in paginate.iter_pages() %}
+          <li><a href="/UserInfo.html/?page={{ i }}">{{ i }}</a></li>
+          {% endfor %}
+          {% if paginate.has_next %}
+          <li><a href="/UserInfo.html/?page={{ paginate.next_num }}">Next</a></li>
+          {% endif %}
+        </ul>
+      </div>
+      <!--翻页 结束-->
+      <p style="margin-left:10px;">查询到{{ paginate.total }}条数据</p>
+      <p style="margin-left:10px;">当前页数：{{ paginate.page }}，总页数：{{ paginate.pages }}</p>
+    </div>
+  </div>
+</div>
+
+
+<!--页脚 开始-->
+<div class="footer-all">
+  <strong>MySheep©2022版权所有</strong>
+  <div style="width:500px;margin:0 auto; padding:20px ;">
+    <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+      <img src="https://blog.scumman.top/wp-content/uploads/2022/04/备案图标.png" style="float:left;">
+      <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:black;">京ICP备2022003555号-2</p>
+    </a>
+  </div>
+</div>
+<!--页脚 结束-->
+
+</body>
+</html>

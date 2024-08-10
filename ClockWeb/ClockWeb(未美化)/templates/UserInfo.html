@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MySheep | 用户信息管理</title>
+</head>
+<body>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        {% for message in messages %}
+            <script type="text/javascript">alert("{{message}}");</script>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+      <div>
+          <h1>用户信息</h1>
+      </div>
+      <div>
+          <form action="/Select" method="post">
+              <select name="Select_key" style="height:25px;">
+                  <option value="*">请选择关键字</option>
+                  <option value="userID">用户名</option>
+                  <option value="email">邮箱</option>
+                  <option value="expireDate">到期时间</option>
+              </select>
+              <input style="height:20px;" type="text" placeholder="请输入..." name="Select_value" value=""/>
+              <button type="submit">查询</button>
+              <a href="/Insert">
+                  <button style="margin-left: 522px" type="button">添加用户</button>
+              </a>
+          </form>
+      </div>
+      <div>
+          <form action='/Delete' method='post'>
+              <table border="1">
+                  <tr align="center">
+                      <td>选择</td>
+                      <td>用户名</td>
+                      <td>密码</td>
+                      <td>邮箱</td>
+                      <td>smtp服务器地址</td>
+                      <td>smtp邮箱</td>
+                      <td>smtp邮箱密码</td>
+                      <td>到期时间</td>
+                      <td>操作数据</td>
+                  </tr>
+                  {%for value in data_all%}
+                  <tr align="center">
+                      <td><input type="checkbox" name='array_userID' value="{{ value[0] }}" /></td>
+                      <td>{{value[0]}}</td>
+                      <td>{{value[1]}}</td>
+                      <td>{{value[2]}}</td>
+                      <td>{{value[3]}}</td>
+                      <td>{{value[4]}}</td>
+                      <td>{{value[5]}}</td>
+                      <td>{{value[6]}}</td>
+                      <td width=100px">
+                          <form action="/UpData_Page.html" method="post">
+                              <button type="submit" name="userID" value="{{value[0]}}">编辑</button>
+                          </form>
+                      </td>
+                  </tr>
+                  {% endfor %}
+              </table>
+              <button type='submit' onclick="return confirm('你确定要删除吗？');">删除用户</button>
+          </form>
+      </div>
+</body>
+</html>

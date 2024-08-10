@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+    <title>屏幕共享</title>
+</head>
+<body>
+<img src="{{ url_for('video_feed') }}">
+<style>
+        *{padding: 0; margin: 0}
+        img{
+            width: 100vw;height: 100vh;}
+    </style>
+<script>
+    $(document).click(
+        function (event) {
+            event = event || window.event;
+            var x = event.offsetX || event.originalEvent.layerX;
+            var y = event.offsetY || event.originalEvent.layerY;
+            var x_rate = x / document.body.clientWidth;
+            var y_rate = y / document.body.clientHeight;
+            sendPointerPosition(x_rate, y_rate)
+        }
+    );
+
+    function sendPointerPosition(xrate, yrate) {
+        $.ajax({
+            url: "/pointer?xrate=" + xrate + "&yrate=" + yrate,
+            type: "get",
+            success: function (data) {
+                console.log(data)
+            },
+            error: function (error) {
+                alert(error)
+            }
+        })
+    }
+
+</script>
+</body>
+</html>

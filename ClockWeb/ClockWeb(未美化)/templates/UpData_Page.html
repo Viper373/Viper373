@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MySheep | 更改用户信息</title>
+</head>
+<body>
+    <form action="/UpData?userID={{value[0]}}" method="post">
+        <table>
+            <tr>
+                <td><a style="color: red">*</a>学号</td>
+                <td>{{value[0]}}</td>
+                <td><a style="color: red">*</a>密码</td>
+                <td><input type="password" placeholder="密码" name="password" value="{{value[1]}}" required="required"/></td>
+            </tr>
+            <tr>
+                <td><a style="color: red">*</a>邮箱</td>
+                <td><input type="email" placeholder="邮箱" name="email" value="{{value[2]}}" required="required"/></td>
+                <td>smtp服务商地址</td>
+                <td><input type="text" placeholder="smtp服务商地址" name="smtpServer" value="{{value[3]}}"/></td>
+            </tr>
+            <tr>
+                <td>smtp邮箱地址</td>
+                <td><input type="email" placeholder="smtp邮箱地址" name="smtpSender" value="{{value[4]}}"/></td>
+                <td>smtp密码</td>
+                <td><input type="password" placeholder="smtp密码" name="smtpPassword" value="{{value[5]}}"/></td>
+            </tr>
+            <tr>
+                <td><a style="color: red">*</a>到期时间</td>
+                <td><input type="datetime-local" placeholder="到期时间" name="expireDate" value="{{value[6]}}" required="required"/></td>
+            </tr>
+        </table>
+        <button type="submit">提交</button>
+    </form>
+</body>
+</html>

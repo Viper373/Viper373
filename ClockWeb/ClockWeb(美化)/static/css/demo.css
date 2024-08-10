@@ -1,0 +1,205 @@
+        *{
+        	padding: 0;
+        	margin: 0;
+            text-shadow:#fff 0 0 2px;
+        }
+        body{
+            max-width:100%;
+            font-family: microsoft yahei;
+            width: 100%;
+            overflow: hidden;
+        }
+        a{
+            text-decoration: none;
+        }
+        /**
+         * nav begin
+         */
+        .main .slideByCss{
+        	position: fixed;
+            top:0;
+        	width: 100%;
+            color:white;
+            z-index: 3;
+        }
+        .main .slideByCss ul li #menu,.main .slideByCss .slideLogo{
+            text-shadow:#fff 0 0 2px;
+            font-size: 20px;
+        }
+        .main .slideByCss ul{
+        	margin:0 auto;
+        	float: right;
+        }
+        .main .slideByCss ul,.main .slideByCss ul li{
+        	list-style: none;
+        }
+        .main .slideByCss ul li{
+            float: left;
+        }
+        .main .slideByCss ul li #menu{
+            display: block;
+            padding: 15px;
+            color: #fff;
+        }
+        .nav_icon{
+        	width: 18px;
+        	height: 25px;
+        	display: inline-block;
+            vertical-align: bottom;
+        }
+        .nav_icon .nav_icon_line{
+        	width: 90%;
+            border:1px #fff solid;
+            margin:5px auto 0;
+        }
+        .slide_menu{
+            position: fixed;
+            right: 0;
+            background-color: rgb(33,178,166);
+            color: #fff;
+            height: 100%;
+            z-index: 4;
+            width:250px;
+            overflow: hidden;
+            transform:translateX(250px);
+        }
+        .slide_menu ul{
+            width: 90%;
+            margin-left: 5%;
+        }
+        .slide_menu ul li{
+            list-style: none;
+        }
+         /**
+          * close icon;
+          */
+         .slide_menu .close{
+            position: relative;
+            left:80%;
+            width: 30px;
+            height: 30px;
+         }
+        .slide_menu .close .close_x{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            margin-left:-10px;
+            width: 20px;
+            border: 1px solid white;
+         }
+        .slide_menu .close .close_x_left{
+            transform:rotate(45deg);
+        }
+        .slide_menu .close .close_x_right{
+            transform:rotate(-45deg);
+        }
+        .slide_menu ul .item a{
+            width: 200px;
+            color: #fff;
+            padding: 5px 20px;
+            display: block;
+            font-size: 20px;
+        }
+        .item_animate{
+            width: 200px;
+            height: 0;
+            border-top:1px solid white;
+            margin-bottom: 10px;
+            opacity: 0;
+            transition:opacity .3s ease;
+        }
+        .slide_menu ul .item:hover + .item_animate{
+            opacity: 1;
+        }
+
+
+
+
+
+
+
+        /**
+         * container begin
+         */
+        .container{
+            width: 100%;
+           height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .container .container_bg{
+            width: 1920px;
+            height: 1080px;
+            background: url(../images/background.png) no-repeat center center fixed;
+            background-size: cover;
+            z-index: -2;
+        }
+        .container_bg_float{
+            width: 1920px;
+            height: 1080px;
+            position: absolute;
+            background: rgb(255,255,255);
+            z-index: -5;
+            opacity: 0;
+            transition:opacity .5s ease;
+        }
+        .container .container_main{
+           width: 350px;
+           height: 320px;
+           margin: 0 auto;
+           position: absolute;
+           top: 25%;
+           left:50%;
+           margin-left: -175px;
+           border-radius: 5px;
+           box-shadow: #fff 0 0 5px;
+           background: rgba(255,255,255,0.8);
+        }
+        .container .container_main input,
+        .container .container_main .container_main_log button{
+           width: 90%;
+           height: 35px;
+           border:none;
+           background: rgba(255,255,255,0.9);
+           margin-left:5%;
+           font-size: 14px;
+           border-radius:5px;
+           color:#000;
+        }
+        .container .container_main .login{
+           margin-bottom: 5px;
+            height: 40px;
+           text-indent: 1em;
+        }
+        .container .container_main .container_main_log .welcome{
+            text-align: center;
+            width: 100%;
+            margin: 50px auto;
+            font-size: 40px;
+            color: #02ABFF;
+            line-height: 20px;
+        }
+        .container .container_main .container_main_log a{
+            float: right;
+            margin-right:5%;
+            font-size:20px;
+            color: #666;
+        }
+        .container .container_main .log{
+            background: #00B9FF;
+            color:#fff;
+            letter-spacing: 1em;
+            text-indent: 1em;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        .container .container_main .container_main_log button{
+             background: #8883FC;
+             color:#fff;
+             margin-top: 20px;
+             cursor: pointer;
+        }
+        .aritcle{
+            width: 100%;
+             height: 1920px;
+        }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MySheep | 登录</title>
+</head>
+<body>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        {% for message in messages %}
+            <script type="text/javascript">alert("{{message}}");</script>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+    <form method="post">
+        <div>
+            <input type="text" name="userID" value="" placeholder="用户名或邮箱" size="20" autocapitalize="off" required="required">
+        </div>
+        <div>
+            <input type="password" name="password" value="" placeholder="密码" size="20" required="required">
+        </div>
+        <div>
+            <button type="submit" >登录</button>
+        </div>
+    </form>
+</body>
+</html>

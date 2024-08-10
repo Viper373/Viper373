@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>屏幕共享</title>
+</head>
+<body>
+    <img src="{{ url_for('video_feed') }}">
+    <audio autoplay>
+        <source src="{{ url_for('audio_feed') }}" type="audio/x-wav">
+    </audio>
+    </script>
+    <style>
+        *{padding: 0; margin: 0}
+        img{
+            width: 1920px;height: 1080px;}
+    </style>
+</body>
+</html>

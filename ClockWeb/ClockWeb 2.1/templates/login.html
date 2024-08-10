@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MySheep | 登录</title>
+	<link rel="stylesheet" type="text/css" href="./static/css/demo.css"></head>
+<body>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        {% for message in messages %}
+            <script type="text/javascript">alert("{{message}}");</script>
+        {% endfor %}
+    {% endif %}
+{% endwith %}
+	<div class="total">
+		<div class="slide_menu">
+			<div class="close">
+				<div class="close_x close_x_left"></div>
+				<div class="close_x close_x_right"></div>
+			</div>
+			<ul>
+				<li class="item">
+					<a href="">Home</a>
+				</li>
+				<div class="item_animate"></div>
+				<li class="item">
+					<a href="">list</a>
+				</li>
+				<div class="item_animate"></div>
+				<li class="item">
+					<a href="">Item</a>
+				</li>
+				<div class="item_animate"></div>
+				<li class="item">
+					<a href="">About</a>
+				</li>
+				<div class="item_animate"></div>
+			</ul>
+		</div>
+		<banner class="container">
+		    <div class="container_bg_float">
+		    </div>
+			<div class="container_bg"></div>
+			<div class="container_main">
+				<div class="container_main_log">
+					<div class="welcome">MySheep</div>
+					<form method="post">
+						<div>
+							<input class="login" type="text" name="userID" value="" placeholder="Your name" size="20" autocapitalize="off" required="required">
+						</div>
+						<br/>
+						<div>
+							<input class="login" type="password" name="password" value="" placeholder="Your password" size="20" required="required">
+						</div>
+						<div>
+							<button class="log" type="submit" >登录</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</banner>
+	</div>
+</body>
+</html>
