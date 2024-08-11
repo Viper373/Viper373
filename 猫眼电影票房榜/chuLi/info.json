@@ -1,0 +1,1129 @@
+{
+    "movieList": {
+        "list": [
+            {
+                "avgSeatView": "2.6%",
+                "avgShowView": "3.7",
+                "boxRate": "34.7%",
+                "boxSplitUnit": {
+                    "num": "&#xed30;&#xea60;&#xea6f;&#xed30;.&#xed30;&#xe3df;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1489349,
+                    "movieName": "第二十条",
+                    "releaseInfo": "上映17天"
+                },
+                "showCount": 101984,
+                "showCountRate": "28.2%",
+                "splitBoxRate": "34.8%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xed30;&#xf7d2;&#xf3e8;&#xef28;.&#xea6f;&#xf11c;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "20.68亿",
+                "sumSplitBoxDesc": "18.78亿"
+            },
+            {
+                "avgSeatView": "2.2%",
+                "avgShowView": "2.9",
+                "boxRate": "28.2%",
+                "boxSplitUnit": {
+                    "num": "&#xed30;&#xe3ec;&#xeb19;&#xeb19;.&#xf11c;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1495728,
+                    "movieName": "飞驰人生2",
+                    "releaseInfo": "上映17天"
+                },
+                "showCount": 102070,
+                "showCountRate": "28.2%",
+                "splitBoxRate": "28.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xed30;&#xed30;&#xe3df;&#xea60;.&#xf3e8;&#xed30;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "30.71亿",
+                "sumSplitBoxDesc": "27.83亿"
+            },
+            {
+                "avgSeatView": "2.1%",
+                "avgShowView": "2.5",
+                "boxRate": "21.2%",
+                "boxSplitUnit": {
+                    "num": "&#xeb19;&#xe3df;&#xef28;.&#xef28;&#xf11c;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1478901,
+                    "movieName": "热辣滚烫",
+                    "releaseInfo": "上映17天"
+                },
+                "showCount": 90536,
+                "showCountRate": "25.0%",
+                "splitBoxRate": "21.2%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xef28;&#xeb19;&#xed30;.&#xed30;&#xf7d2;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "32.91亿",
+                "sumSplitBoxDesc": "29.89亿"
+            },
+            {
+                "avgSeatView": "3.0%",
+                "avgShowView": "3.3",
+                "boxRate": "12.0%",
+                "boxSplitUnit": {
+                    "num": "&#xf3e8;&#xf3e8;&#xf3e8;.&#xef28;&#xed30;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1500234,
+                    "movieName": "熊出没·逆转时空",
+                    "releaseInfo": "上映17天"
+                },
+                "showCount": 40996,
+                "showCountRate": "11.3%",
+                "splitBoxRate": "12.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xf3e8;&#xea6f;&#xe3df;.&#xf3e8;&#xed30;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "18.26亿",
+                "sumSplitBoxDesc": "16.66亿"
+            },
+            {
+                "avgSeatView": "1.3%",
+                "avgShowView": "1.4",
+                "boxRate": "1.3%",
+                "boxSplitUnit": {
+                    "num": "&#xea60;&#xf11c;.&#xf11c;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1435968,
+                    "movieName": "阿盖尔：神秘特工",
+                    "releaseInfo": "上映4天"
+                },
+                "showCount": 10665,
+                "showCountRate": "2.9%",
+                "splitBoxRate": "1.3%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xf3e8;&#xea60;.&#xea60;&#xed30;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "1064.1万",
+                "sumSplitBoxDesc": "953.7万"
+            },
+            {
+                "avgSeatView": "1.3%",
+                "avgShowView": "1.3",
+                "boxRate": "1.2%",
+                "boxSplitUnit": {
+                    "num": "&#xf3e8;&#xe3df;.&#xf11c;&#xed30;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1505363,
+                    "movieName": "还是觉得你最好2",
+                    "releaseInfo": "上映3天"
+                },
+                "showCount": 11656,
+                "showCountRate": "3.2%",
+                "splitBoxRate": "1.2%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xf3e8;&#xed30;.&#xf3e8;&#xea60;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "1041.9万",
+                "sumSplitBoxDesc": "943.4万"
+            },
+            {
+                "avgSeatView": "81.9%",
+                "avgShowView": "71.8",
+                "boxRate": "0.4%",
+                "boxSplitUnit": {
+                    "num": "&#xe3ec;&#xe3ec;.&#xe3ec;&#xf7d2;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1462645,
+                    "movieName": "孤军",
+                    "releaseInfo": "上映61天"
+                },
+                "showCount": 80,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "0.5%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xe3ec;&#xe3ec;.&#xe3ec;&#xf7d2;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "2720.1万",
+                "sumSplitBoxDesc": "2719.5万"
+            },
+            {
+                "avgSeatView": "3.6%",
+                "avgShowView": "6.1",
+                "boxRate": "0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xf7d2;.&#xea60;&#xea60;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1504098,
+                    "movieName": "泰勒·斯威夫特：时代巡回演唱会",
+                    "releaseInfo": "上映58天"
+                },
+                "showCount": 159,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xf7d2;.&#xea6f;&#xef28;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "9788.1万",
+                "sumSplitBoxDesc": "8913.0万"
+            },
+            {
+                "avgSeatView": "0.8%",
+                "avgShowView": "0.8",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xe3ec;.&#xe3df;&#xed30;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1458876,
+                    "movieName": "年会不能停！",
+                    "releaseInfo": "上映60天"
+                },
+                "showCount": 865,
+                "showCountRate": "0.2%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xe3ec;.&#xf11c;&#xeb19;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "12.92亿",
+                "sumSplitBoxDesc": "11.55亿"
+            },
+            {
+                "avgSeatView": "1.3%",
+                "avgShowView": "1.2",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xed30;.&#xf7d2;&#xed30;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1260081,
+                    "movieName": "海王2：失落的王国",
+                    "releaseInfo": "上映69天"
+                },
+                "showCount": 313,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xed30;.&#xe3ec;&#xe3ec;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "4.65亿",
+                "sumSplitBoxDesc": "4.12亿"
+            },
+            {
+                "avgSeatView": "10.0%",
+                "avgShowView": "5.9",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xed30;.&#xe3ec;&#xe3ec;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 338436,
+                    "movieName": "爱乐之城",
+                    "releaseInfo": ""
+                },
+                "showCount": 51,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xed30;.&#xea6f;&#xeb19;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "2.79亿",
+                "sumSplitBoxDesc": "2.57亿"
+            },
+            {
+                "avgSeatView": "0.8%",
+                "avgShowView": "0.8",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xef28;&#xeb19;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1432500,
+                    "movieName": "临时劫案",
+                    "releaseInfo": "上映39天"
+                },
+                "showCount": 290,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xef28;&#xea6f;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "2.37亿",
+                "sumSplitBoxDesc": "2.12亿"
+            },
+            {
+                "avgSeatView": "42.0%",
+                "avgShowView": "62.0",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea60;&#xe3df;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1431842,
+                    "movieName": "浙南儿女英雄传之热血长虹",
+                    "releaseInfo": "上映33天"
+                },
+                "showCount": 3,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea60;&#xf3e8;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "11.9万",
+                "sumSplitBoxDesc": "11.9万"
+            },
+            {
+                "avgSeatView": "1.0%",
+                "avgShowView": "1.0",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xf3e8;&#xed30;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1442365,
+                    "movieName": "养蜂人",
+                    "releaseInfo": "上映46天"
+                },
+                "showCount": 125,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xf7d2;&#xf3e8;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "1.14亿",
+                "sumSplitBoxDesc": "1.02亿"
+            },
+            {
+                "avgSeatView": "1.6%",
+                "avgShowView": "1.3",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xf7d2;&#xea60;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1331905,
+                    "movieName": "金手指",
+                    "releaseInfo": "上映59天"
+                },
+                "showCount": 93,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xf7d2;&#xe3ec;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "5.74亿",
+                "sumSplitBoxDesc": "5.17亿"
+            },
+            {
+                "avgSeatView": "0.7%",
+                "avgShowView": "0.7",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xf7d2;&#xf7d2;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1431800,
+                    "movieName": "舒克贝塔·五角飞碟",
+                    "releaseInfo": "上映59天"
+                },
+                "showCount": 163,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xf11c;&#xeb19;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "6588.0万",
+                "sumSplitBoxDesc": "5986.0万"
+            },
+            {
+                "avgSeatView": "11.4%",
+                "avgShowView": "14.5",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xf11c;&#xea60;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1387181,
+                    "movieName": "悬崖下72小时",
+                    "releaseInfo": "上映32天"
+                },
+                "showCount": 6,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xf11c;&#xf11c;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "22.1万",
+                "sumSplitBoxDesc": "21.6万"
+            },
+            {
+                "avgSeatView": "0.3%",
+                "avgShowView": "0.3",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xf11c;&#xea60;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1335394,
+                    "movieName": "八戒之天蓬下界",
+                    "releaseInfo": "上映17天"
+                },
+                "showCount": 269,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xf11c;&#xf11c;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "356.0万",
+                "sumSplitBoxDesc": "323.1万"
+            },
+            {
+                "avgSeatView": "55.9%",
+                "avgShowView": "52.0",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xf11c;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1488960,
+                    "movieName": "周处除三害",
+                    "releaseInfo": "点映"
+                },
+                "showCount": 1,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xe3ec;&#xed30;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "174.8万",
+                "sumSplitBoxDesc": "158.0万"
+            },
+            {
+                "avgSeatView": "77.4%",
+                "avgShowView": "55.0",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xe3ec;&#xea60;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1418965,
+                    "movieName": "玩转门神",
+                    "releaseInfo": "上映53天"
+                },
+                "showCount": 1,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xe3ec;&#xf3e8;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "13.9万",
+                "sumSplitBoxDesc": "13.9万"
+            },
+            {
+                "avgSeatView": "1.7%",
+                "avgShowView": "1.3",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xe3ec;&#xf7d2;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1218085,
+                    "movieName": "旺卡",
+                    "releaseInfo": "上映81天"
+                },
+                "showCount": 52,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xe3ec;&#xed30;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "5384.9万",
+                "sumSplitBoxDesc": "4750.2万"
+            },
+            {
+                "avgSeatView": "2.2%",
+                "avgShowView": "1.7",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xed30;&#xef28;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1459756,
+                    "movieName": "狗神",
+                    "releaseInfo": "上映74天"
+                },
+                "showCount": 24,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xed30;&#xf3e8;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "1744.1万",
+                "sumSplitBoxDesc": "1546.1万"
+            },
+            {
+                "avgSeatView": "0.9%",
+                "avgShowView": "0.8",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xed30;&#xf7d2;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1439164,
+                    "movieName": "动物园里有什么？",
+                    "releaseInfo": "上映46天"
+                },
+                "showCount": 50,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xed30;&#xf11c;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "1.08亿",
+                "sumSplitBoxDesc": "9789.4万"
+            },
+            {
+                "avgSeatView": "0.6%",
+                "avgShowView": "0.4",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xed30;&#xe3ec;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1479147,
+                    "movieName": "照明商店",
+                    "releaseInfo": "上映81天"
+                },
+                "showCount": 70,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xed30;&#xed30;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "2.75亿",
+                "sumSplitBoxDesc": "2.50亿"
+            },
+            {
+                "avgSeatView": "0.1%",
+                "avgShowView": "0.2",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xed30;&#xed30;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1281273,
+                    "movieName": "破战",
+                    "releaseInfo": "上映11天"
+                },
+                "showCount": 155,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xeb19;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "8.7万",
+                "sumSplitBoxDesc": "7.9万"
+            },
+            {
+                "avgSeatView": "1.0%",
+                "avgShowView": "0.7",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xed30;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1207114,
+                    "movieName": "潜行",
+                    "releaseInfo": "上映60天"
+                },
+                "showCount": 40,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xeb19;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "3.89亿",
+                "sumSplitBoxDesc": "3.50亿"
+            },
+            {
+                "avgSeatView": "1.6%",
+                "avgShowView": "1.4",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xeb19;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1437173,
+                    "movieName": "绝地重生",
+                    "releaseInfo": "点映"
+                },
+                "showCount": 14,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xe3df;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "23.1万",
+                "sumSplitBoxDesc": "22.9万"
+            },
+            {
+                "avgSeatView": "0.5%",
+                "avgShowView": "0.4",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xe3df;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1385865,
+                    "movieName": "三大队",
+                    "releaseInfo": "上映74天"
+                },
+                "showCount": 37,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea60;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "7.05亿",
+                "sumSplitBoxDesc": "6.42亿"
+            },
+            {
+                "avgSeatView": "0.4%",
+                "avgShowView": "0.4",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf3e8;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1500903,
+                    "movieName": "开心超人之时空营救",
+                    "releaseInfo": "上映38天"
+                },
+                "showCount": 39,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf3e8;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "2583.1万",
+                "sumSplitBoxDesc": "2312.0万"
+            },
+            {
+                "avgSeatView": "0.4%",
+                "avgShowView": "0.4",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf3e8;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1461561,
+                    "movieName": "一闪一闪亮星星",
+                    "releaseInfo": "上映59天"
+                },
+                "showCount": 34,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf7d2;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "7.02亿",
+                "sumSplitBoxDesc": "6.27亿"
+            },
+            {
+                "avgSeatView": "0.3%",
+                "avgShowView": "0.5",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf3e8;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1320785,
+                    "movieName": "小行星猎人",
+                    "releaseInfo": "上映46天"
+                },
+                "showCount": 26,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf7d2;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "233.3万",
+                "sumSplitBoxDesc": "208.7万"
+            },
+            {
+                "avgSeatView": "1.2%",
+                "avgShowView": "1.3",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf7d2;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1376729,
+                    "movieName": "大雨",
+                    "releaseInfo": "上映46天"
+                },
+                "showCount": 8,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf7d2;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "1728.4万",
+                "sumSplitBoxDesc": "1588.5万"
+            },
+            {
+                "avgSeatView": "0.2%",
+                "avgShowView": "0.3",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf7d2;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1221474,
+                    "movieName": "西南东北客",
+                    "releaseInfo": "上映3天"
+                },
+                "showCount": 44,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf11c;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "5385",
+                "sumSplitBoxDesc": "4927"
+            },
+            {
+                "avgSeatView": "0.8%",
+                "avgShowView": "0.8",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf11c;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1355509,
+                    "movieName": "消失的收藏家",
+                    "releaseInfo": "上映67天"
+                },
+                "showCount": 16,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf11c;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "66.1万",
+                "sumSplitBoxDesc": "58.7万"
+            },
+            {
+                "avgSeatView": "0.7%",
+                "avgShowView": "0.5",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xf11c;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1463744,
+                    "movieName": "非诚勿扰3",
+                    "releaseInfo": "上映59天"
+                },
+                "showCount": 15,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xe3ec;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "1.02亿",
+                "sumSplitBoxDesc": "9174.7万"
+            },
+            {
+                "avgSeatView": "2.0%",
+                "avgShowView": "3.0",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xed30;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 344258,
+                    "movieName": "欢乐好声音",
+                    "releaseInfo": ""
+                },
+                "showCount": 1,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xed30;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "2.15亿",
+                "sumSplitBoxDesc": "2.00亿"
+            },
+            {
+                "avgSeatView": "0.1%",
+                "avgShowView": "0.1",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xed30;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1458940,
+                    "movieName": "江豚·风时舞",
+                    "releaseInfo": "上映38天"
+                },
+                "showCount": 28,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xed30;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "767.9万",
+                "sumSplitBoxDesc": "708.0万"
+            },
+            {
+                "avgSeatView": "2.8%",
+                "avgShowView": "1.0",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xed30;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1300093,
+                    "movieName": "吾爱敦煌",
+                    "releaseInfo": ""
+                },
+                "showCount": 2,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "844.7万",
+                "sumSplitBoxDesc": "824.3万"
+            },
+            {
+                "avgSeatView": "0.6%",
+                "avgShowView": "0.3",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1497948,
+                    "movieName": "戏杀",
+                    "releaseInfo": "点映"
+                },
+                "showCount": 4,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "3589",
+                "sumSplitBoxDesc": "3586"
+            },
+            {
+                "avgSeatView": "0.6%",
+                "avgShowView": "1.0",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 20248,
+                    "movieName": "功夫熊猫",
+                    "releaseInfo": ""
+                },
+                "showCount": 1,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "1.86亿",
+                "sumSplitBoxDesc": "1.86亿"
+            },
+            {
+                "avgSeatView": "0.6%",
+                "avgShowView": "1.0",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 330,
+                    "movieName": "驯龙高手",
+                    "releaseInfo": ""
+                },
+                "showCount": 1,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "8986.0万",
+                "sumSplitBoxDesc": "8986.0万"
+            },
+            {
+                "avgSeatView": "0.6%",
+                "avgShowView": "1.0",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 893936,
+                    "movieName": "小黄人大眼萌：神偷奶爸前传",
+                    "releaseInfo": ""
+                },
+                "showCount": 1,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "2.37亿",
+                "sumSplitBoxDesc": "2.12亿"
+            },
+            {
+                "avgSeatView": "0.1%",
+                "avgShowView": "0.1",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1413066,
+                    "movieName": "天降大任",
+                    "releaseInfo": "上映52天"
+                },
+                "showCount": 7,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "3208.2万",
+                "sumSplitBoxDesc": "3078.8万"
+            },
+            {
+                "avgSeatView": "0.1%",
+                "avgShowView": "0.1",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1441467,
+                    "movieName": "怒潮",
+                    "releaseInfo": "上映73天"
+                },
+                "showCount": 9,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "2.29亿",
+                "sumSplitBoxDesc": "2.08亿"
+            },
+            {
+                "avgSeatView": "0.3%",
+                "avgShowView": "0.3",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1457152,
+                    "movieName": "乌蒙奇缘",
+                    "releaseInfo": "上映27天"
+                },
+                "showCount": 3,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "24.4万",
+                "sumSplitBoxDesc": "24.2万"
+            },
+            {
+                "avgSeatView": "3.2%",
+                "avgShowView": "1.0",
+                "boxRate": "<0.1%",
+                "boxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "movieInfo": {
+                    "movieId": 1366363,
+                    "movieName": "烟火人间",
+                    "releaseInfo": "上映45天"
+                },
+                "showCount": 1,
+                "showCountRate": "<0.1%",
+                "splitBoxRate": "<0.1%",
+                "splitBoxSplitUnit": {
+                    "num": "&#xea6f;.&#xea6f;&#xea6f;",
+                    "unit": "万"
+                },
+                "sumBoxDesc": "80.2万",
+                "sumSplitBoxDesc": "78.1万"
+            }
+        ],
+        "nationBoxInfo": {
+            "nationBoxSplitUnit": {
+                "num": "&#xf7d2;&#xea60;&#xea6f;&#xed30;.&#xf3e8;",
+                "unit": "万"
+            },
+            "nationSplitBoxSplitUnit": {
+                "num": "&#xf7d2;&#xed30;&#xef28;&#xf7d2;.&#xe3df;",
+                "unit": "万"
+            },
+            "showCountDesc": "36.1万",
+            "title": "实时大盘",
+            "viewCountDesc": "108.3万"
+        },
+        "updateInfo": {
+            "updateGapSecond": 5,
+            "updateTimestamp": 1708934825930
+        }
+    },
+    "movieInfo": {
+        "boxTrends": [
+            {
+                "box": 64757499,
+                "boxDesc": "6475.7万",
+                "date": 20240222,
+                "releaseDay": false
+            },
+            {
+                "box": 78148320,
+                "boxDesc": "7814.8万",
+                "date": 20240223,
+                "releaseDay": false
+            },
+            {
+                "box": 119120639,
+                "boxDesc": "1.19亿",
+                "date": 20240224,
+                "releaseDay": false
+            },
+            {
+                "box": 81280324,
+                "boxDesc": "8128.0万",
+                "date": 20240225,
+                "releaseDay": false
+            },
+            {
+                "box": 16011738,
+                "boxDesc": "1601.1万",
+                "date": 20240226,
+                "releaseDay": false
+            }
+        ],
+        "movieInfo": {
+            "category": "喜剧,剧情,家庭",
+            "imgUrl": "https://p0.pipi.cn/mmdb/54ecde8d2ff51b8d33300beb713232e1932ab.jpg?imageMogr2/thumbnail/2500x2500%3E",
+            "movieId": 1489349,
+            "name": "第二十条",
+            "releaseInfo": "上映17天"
+        }
+    },
+    "calendar": {
+        "selectDate": "2024-02-26",
+        "selectMaxDate": "2024-04-26",
+        "selectMinDate": "2023-02-26",
+        "today": "2024-02-26"
+    },
+    "fontStyle": "@font-face{font-family: \"mtsi-font\";src:url(\"//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/e3dfe524.eot\");src:url(\"//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/e3dfe524.eot?#iefix\") format(\"embedded-opentype\"),url(\"//s3plus.meituan.net/v1/mss_73a511b8f91f43d0bdae92584ea6330b/font/e3dfe524.woff\");}"
+}
