@@ -22,8 +22,8 @@ I'm Viper373, a passionate python crawler learner who loves to build things that
 ## My GitHub Stats 🥳
 
 <p>
-  <img src="https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373&theme=vue&show_icons=true" alt="GitHub Stats" style="height: 200px;" />
-  <img src="https://github-readme-stats-cyan-one-64.vercel.app/api/top-langs/?username=Viper373&theme=vue&show_icons=true&layout=compact" alt="Top Langs" style="height: 200px;" />
+  <img src="https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373&theme=vue&show_icons=true" alt="GitHub Stats" style="width: 250px;" />
+  <img src="https://github-readme-stats-cyan-one-64.vercel.app/api/top-langs/?username=Viper373&theme=vue&show_icons=true&layout=compact" alt="Top Langs" style="width: 250px;" />
 </p>
 
 <!--START_SECTION:waka-->
