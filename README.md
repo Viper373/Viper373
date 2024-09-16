@@ -4,12 +4,6 @@
 
 I'm Viper373, a passionate python crawler learner who loves to build things that better. 😎
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
-</picture>
-
 ## About Me 🎨
 👀 I'm interested in coding, problem-solving, and learning new technologies.
 
@@ -18,6 +12,12 @@ I'm Viper373, a passionate python crawler learner who loves to build things that
 🎓 I have studied at Beijing Institute of Petrochemical Technology from September 2020 to July 2024, majoring in Big Data Management and Applications.
 
 📫 You can reach me at 2020311228@bipt.edu.cn.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake.svg" />
+</picture>
 
 [![Anurag's GitHub stats](https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373&theme=vue&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats-cyan-one-64.vercel.app/api/top-langs/?username=Viper373&theme=vue&show_icons=true&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
@@ -101,9 +101,3 @@ Go                       1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
  Last Updated on 16/09/2024 12:03:38 UTC
 <!--END_SECTION:waka-->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake.svg" />
-</picture>
