@@ -1,4 +1,4 @@
-name: generate animation
+name: github_snk
 
 on:
   # 每天UTC时间8点自动运行
