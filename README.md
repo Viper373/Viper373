@@ -21,7 +21,7 @@ I'm Viper373, a passionate python crawler learner who loves to build things that
 
 ## My GitHub Stats
 
-| [![Anurag's GitHub stats](https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373&theme=vue&show_icons=true)](https://github.com/anuraghazra/github-readme-stats) | [![Top Langs](https://github-readme-stats-cyan-one-64.vercel.app/api/top-langs/?username=Viper373&theme=vue&show_icons=true&layout=compact&card_width=495)](https://github.com/anuraghazra/github-readme-stats) |
+| [![Anurag's GitHub stats](https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373&theme=vue&show_icons=true)](https://github.com/anuraghazra/github-readme-stats) | [![Top Langs](https://github-readme-stats-cyan-one-64.vercel.app/api/top-langs/?username=Viper373&theme=vue&show_icons=true&layout=compact&card_height=495)](https://github.com/anuraghazra/github-readme-stats) |
 | --- | --- |
 
 <!--START_SECTION:waka-->
