@@ -20,7 +20,7 @@ I'm Viper373, a passionate python crawler learner who loves to build things that
 </picture>
 
 [![Anurag's GitHub stats](https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373&theme=vue&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats-cyan-one-64.vercel.app/api/top-langs/?username=Viper373&theme=vue&show_icons=true&layout=compact&card_width=495)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-cyan-one-64.vercel.app/api/top-langs/?username=Viper373&theme=vue&show_icons=true&layout=compact&card_width=450)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-59%20mins-blue)
