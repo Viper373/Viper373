@@ -13,4 +13,4 @@ I'm Viper373, a passionate python crawler learner who loves to build things that
 
 📫 You can reach me at 2020311228@bipt.edu.cn.
 
-[![Anurag's GitHub stats](https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373&theme=dark&show_icons=true&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
