@@ -4,6 +4,12 @@
 
 I'm Viper373, a passionate python crawler learner who loves to build things that better. 😎
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
+
 ## About Me 🎨
 👀 I'm interested in coding, problem-solving, and learning new technologies.
 
