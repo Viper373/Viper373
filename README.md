@@ -24,3 +24,9 @@ I'm Viper373, a passionate python crawler learner who loves to build things that
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake.svg" />
+</picture>
