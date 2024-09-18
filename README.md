@@ -4,6 +4,8 @@
 
 I'm Viper373, a passionate python crawler learner who loves to build things that better. 😎
 
+[![CodeTime Badge](https://img.shields.io/endpoint?style=for-the-badge&color=&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D27070%26project%3D%26in=0)](https://codetime.dev)
+
 ## About Me 🎨
 👀 I'm interested in coding, problem-solving, and learning new technologies.
 
@@ -25,8 +27,6 @@ I'm Viper373, a passionate python crawler learner who loves to build things that
   <img src="https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373&theme=vue&show_icons=true" alt="GitHub Stats" style="width: 447px;" />
   <img src="https://github-readme-stats-cyan-one-64.vercel.app/api/top-langs/?username=Viper373&theme=vue&show_icons=true&layout=compact" alt="Top Langs" style="width: 340px;" />
 </p>
-
-[![CodeTime Badge](https://img.shields.io/endpoint?style=for-the-badge&color=&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D27070%26project%3D%26in=0)](https://codetime.dev)
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-2%20hrs%2056%20mins-blue)
