@@ -1,4 +1,4 @@
-<img src="[https://img.viper3.top/user/pikaeight.jpg](https://img.viper3.top/user/pikaeight.jpg)" alt="Viper373" style="width: 64px; height: auto; border-radius: 24px;"> | [English](./README.md) | [简体中文](./README.zh.md)
+<img src="https://img.viper3.top/user/pikaeight.jpg" alt="Viper373" style="width: 64px; height: auto; border-radius: 24px;"> | [English](./README.md) | [简体中文](./README.zh.md)
 
 # Hi there! 👋  
 
