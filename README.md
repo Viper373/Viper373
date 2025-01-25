@@ -14,8 +14,8 @@
 - 🚩 居住地丨中国，甘肃，庆阳，镇原
 - 📬 邮箱丨2483523414@qq.com
 
-# CodeTime 统计 🤑
 
+## GitHub 活跃度 🥳
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake.svg" />
@@ -31,13 +31,11 @@
 
 ![Lines of code](https://img.shields.io/badge/%E4%BB%8E%E3%80%8CHello%20World%E3%80%8D%E8%B5%B7%E6%88%91%E5%B7%B2%E7%BB%8F%E5%86%99%E4%BA%86-0%20%E8%A1%8C%E4%BB%A3%E7%A0%81-blue)
 
-## GitHub 活跃度 🥳
 
+# CodeTime 统计 🤑
 [![CodeTime Badge](https://img.shields.io/endpoint?style=for-the-badge&color=&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D27070%26project%3D%26in=0)](https://codetime.dev)
-<p>
-  <img src="https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373&theme=vue&show_icons=true" alt="GitHub Stats" style="width: 447px;" />
-  <img src="https://github-readme-stats-cyan-one-64.vercel.app/api/top-langs/?username=Viper373&theme=vue&show_icons=true&layout=compact" alt="Top Langs" style="width: 340px;" />
-</p>
+<img src="https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373&theme=vue&show_icons=true" alt="GitHub Stats" style="width: 447px;" />
+<img src="https://github-readme-stats-cyan-one-64.vercel.app/api/top-langs/?username=Viper373&theme=vue&show_icons=true&layout=compact" alt="Top Langs" style="width: 340px;" />
 
 **我是早起的 🐤** 
 
