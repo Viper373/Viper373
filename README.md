@@ -3,23 +3,16 @@
 一个破烂爬虫开发者丨前端又菜又爱玩丨9年老烟民 🤣
 
 ## 关于我 🎨
-🙁 生于丨2002.12
 
-🏫 毕业院校丨BIPT（北京石油化工学院）
-
-🎯 研学专业丨大数据管理与应用
-
-🌊 现在职业丨摆烂人生
-
-🌶 16型人格丨ESFJ-T(https://www.16personalities.com/ch/esfj-人格)
-
-🌱 格言丨雄关漫道真如铁，而今迈步从头越
-
-🎮 游戏丨英雄联盟|Counter:Strike 2
-
-🚩 居住地丨中国，甘肃，庆阳，镇原
-
-📬 邮箱丨2483523414@qq.com
+- 🙁 生于丨2002.12
+- 🏫 毕业院校丨BIPT（北京石油化工学院）
+- 🎯 研学专业丨大数据管理与应用
+- 🌊 现在职业丨摆烂人生
+- 🌶 16型人格丨ESFJ-T(https://www.16personalities.com/ch/esfj-人格)
+- 🌱 格言丨雄关漫道真如铁，而今迈步从头越
+- 🎮 游戏丨英雄联盟|Counter:Strike 2
+- 🚩 居住地丨中国，甘肃，庆阳，镇原
+- 📬 邮箱丨2483523414@qq.com
 
 # CodeTime 统计 🤑
 
@@ -40,8 +33,8 @@
 
 ## GitHub 活跃度 🥳
 
+[![CodeTime Badge](https://img.shields.io/endpoint?style=for-the-badge&color=&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D27070%26project%3D%26in=0)](https://codetime.dev)
 <p>
-  [![CodeTime Badge](https://img.shields.io/endpoint?style=for-the-badge&color=&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D27070%26project%3D%26in=0)](https://codetime.dev)
   <img src="https://github-readme-stats-cyan-one-64.vercel.app/api?username=Viper373&theme=vue&show_icons=true" alt="GitHub Stats" style="width: 447px;" />
   <img src="https://github-readme-stats-cyan-one-64.vercel.app/api/top-langs/?username=Viper373&theme=vue&show_icons=true&layout=compact" alt="Top Langs" style="width: 340px;" />
 </p>
