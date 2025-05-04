@@ -16,7 +16,7 @@
 
 ## 我的编程 🤑
 
-<img src="https://github-readme-stats.vercel.app/api?username=Viper373&show_icons=true&theme=Default&locale=cn&hide=prs&rank_icon=github" alt="logo" align="right" width="50%" />
+<img src="https://github-readme-stats.vercel.app/api?username=Viper373&show_icons=true&theme=Default&locale=cn&hide=prs&rank_icon=github" alt="logo"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake-dark.svg" />
