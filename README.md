@@ -2,8 +2,6 @@
 小暮笙丨Viper373
 一个破烂爬虫开发者丨前端又菜又爱玩丨9年老烟民 🤣
 
-<img src="https://github-readme-stats.vercel.app/api?username=cmliu&show_icons=true&theme=Default&locale=cn&hide=prs&rank_icon=github" alt="logo" align="right" width="50%" />
-
 ## 关于我 🎨
 
 - 🙁 生于丨2002.12
@@ -17,6 +15,8 @@
 - 📬 邮箱丨2483523414@qq.com
 
 ## 我的编程 🤑
+
+<img src="https://github-readme-stats.vercel.app/api?username=Viper373&show_icons=true&theme=Default&locale=cn&hide=prs&rank_icon=github" alt="logo" align="right" width="50%" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake-dark.svg" />
