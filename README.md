@@ -20,11 +20,8 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=Viper373&show_icons=true&theme=Default&locale=cn&hide=prs&rank_icon=github" alt="logo"/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Viper373/Viper373/snk_output/github-contribution-grid-snake.svg" />
-</picture>
+![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/overview.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/languages.svg#gh-light-mode-only)
 
 [![CodeTime Badge](https://img.shields.io/endpoint?style=for-the-badge&color=&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D27070%26project%3D%26in=0)](https://codetime.dev)
 
