@@ -16,18 +16,14 @@
 - 🚩 居住地丨中国，甘肃，庆阳，镇原
 - 📬 邮箱丨2483523414@qq.com
 
+![Viper3's MoeCounter](https://count.getloli.com/@Viper3?name=Viper3&theme=booru-lewd&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto&num=3712)
+
 ## 我的编程 🤑
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-275%20hrs%203%20mins-blue) ![Lines of code](https://img.shields.io/badge/%E4%BB%8E%E3%80%8CHello%20World%E3%80%8D%E8%B5%B7%E6%88%91%E5%B7%B2%E7%BB%8F%E5%86%99%E4%BA%86-2.9%20million%20%E8%A1%8C%E4%BB%A3%E7%A0%81-blue)
 
-<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-  <img src="https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=Default&locale=cn&hide=prs&rank_icon=github " alt="logo" style="width: 48%;"/>
-
-  <a href="https://github.com/anuraghazra/github-readme-stats ">
-    <img src="https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=vue " alt="Viper373's GitHub stats" style="width: 48%;"/>
-  </a>
-</div>
+<img src="https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=vue&locale=cn&count_private=true" alt="logo"/>
 
 ![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/overview.svg#gh-light-mode-only)
 ![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/languages.svg#gh-light-mode-only)
