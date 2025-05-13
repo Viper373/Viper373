@@ -23,7 +23,7 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=Viper373&show_icons=true&theme=Default&locale=cn&hide=prs&rank_icon=github" alt="logo"/>
 
-[![Viper373's GitHub stats](https://github-readme-stats-lj4ao049i-viper373s-projects.vercel.app/api?username=Viper373&show_icons=true&theme=vue)](https://github.com/anuraghazra/github-readme-stats)
+[![Viper373's GitHub stats](https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=vue)](https://github.com/anuraghazra/github-readme-stats)
 
 ![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/overview.svg#gh-light-mode-only)
 ![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/languages.svg#gh-light-mode-only)
