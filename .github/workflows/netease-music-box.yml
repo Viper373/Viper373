@@ -26,15 +26,16 @@ jobs:
         id: go
       - name: Check out repo
         uses: actions/checkout@v2
-      - uses: actions/setup-go@v2
-      - name: Clone and run netease-music-box
-        run: |-
-            git clone https://github.com/Viper373/netease-music-box-go.git 
-            cd netease-music-box-go && go build -o netease-music-box ./cmd/box/main.go
-            mv ./netease-music-box ../ && cd .. && rm -rf netease-music-box-go/
+      - name: Clone and build netease-music-box-go
+        run: |
+          git clone https://github.com/Viper373/netease-music-box-go.git
+          cd netease-music-box-go && go build -o netease-music-box ./cmd/box/main.go
+          mv ./netease-music-box ../ && cd .. && rm -rf netease-music-box-go/
+      - name: Run netease-music-box
+        run: ./netease-music-box
       - name: Commit and push
         run: |
           git config --global user.email "bot@github.com" && git config --global user.name "NeteaseMusicBox-Bot"
           git diff
           git add README.md && git commit -m ":memo: update profile" || exit 0
-          git pull --rebase && git push
+          git pull && git push
