@@ -1,0 +1,56 @@
+name: Update lang-box stats
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      GIST_ID: f12b1909e28c47d7343c80b9590fe61c
+      USERNAME: Viper373
+      DAYS: 14
+      UPDATE_OPTION: GIST_AND_MARKDOWN
+      MARKDOWN_FILE: README.md
+      LANGBOX_BLOCK_START: <!-- lang-box start -->
+      LANGBOX_BLOCK_END: <!-- lang-box end -->
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v2
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.20'
+
+      - name: Install github-linguist
+        run: |
+          sudo gem install github-linguist
+
+      - name: Clone lang-box repo
+        run: |
+          git clone https://github.com/Viper373/lang-box-go.git
+
+      - name: Build lang-box
+        run: |
+          cd lang-box
+          go build -o langbox main.go
+
+      - name: Run lang-box
+        run: |
+          cd lang-box
+          ./langbox
+
+      - name: Commit and push README.md
+        run: |
+          git config --global user.name 'LangBox-Bot'
+          git config --global user.email 'bot@github.com'
+          git add README.md
+          git commit -m 'chore: update language stats [bot]' || echo 'No changes to commit'
+          git push 
