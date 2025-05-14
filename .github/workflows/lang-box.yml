@@ -1,4 +1,4 @@
-name: Update lang-box stats
+name: Update Lang Box Stats
 
 on:
   push:
@@ -6,11 +6,11 @@ on:
   pull_request:
     branches: [main]
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: "0 0 * * *"
 
 jobs:
-  update:
+  build:
+    name: Update-lang-box-stats
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -18,35 +18,31 @@ jobs:
       USERNAME: Viper373
       DAYS: 14
       UPDATE_OPTION: GIST_AND_MARKDOWN
-      MARKDOWN_FILE: profile/README.md
+      MARKDOWN_FILE: README.md
       LANGBOX_BLOCK_START: <!-- lang-box start -->
       LANGBOX_BLOCK_END: <!-- lang-box end -->
     steps:
-      - name: Checkout profile repo
+      - name: Set up Go 1.x
+        uses: actions/setup-go@v2
+        with:
+          go-version: ^1.20
+        id: go
+      - name: Check out profile repo
         uses: actions/checkout@v2
         with:
           path: profile
-
-      - name: Clone lang-box repo
+      - name: Clone and build lang-box-go
         run: |
           git clone https://github.com/Viper373/lang-box-go.git
-
-      - name: Build lang-box
-        run: |
-          cd lang-box-go
-          go build -o langbox main.go
-
+          cd lang-box-go && go build -o langbox main.go
+          mv ./langbox ../ && cd .. && rm -rf lang-box-go/
       - name: Run lang-box
-        run: |
-          cd lang-box-go
-          ./langbox
-
-      - name: Commit and push README.md
+        run: ./langbox
+      - name: Commit and push
         run: |
           cd profile
-          git config --global user.name 'LangBox-Bot'
-          git config --global user.email 'bot@github.com'
-          git add README.md
-          git commit -m 'chore: update language stats [bot]' || echo 'No changes to commit'
-          git pull --rebase
-          git push
+          git config --global user.email "bot@github.com"
+          git config --global user.name "LangBox-Bot"
+          git diff
+          git add README.md && git commit -m ":memo: update profile" || exit 0
+          git pull --rebase && git push
