@@ -33,6 +33,14 @@
 <!-- steam-box end -->
 
 <!-- netease-music-box start -->
+#### <a href=\"https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54\" target=\"_blank\">🎵 Weekly Listen Music Rank</a>
+```text
+Oh my God!
+~~~~~~
+我最近一周竟然没有听歌～
+~~~~~~
+```
+<!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
 
 ## 我的编程 🤑
