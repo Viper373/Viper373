@@ -18,21 +18,14 @@ jobs:
       USERNAME: Viper373
       DAYS: 14
       UPDATE_OPTION: GIST_AND_MARKDOWN
-      MARKDOWN_FILE: README.md
+      MARKDOWN_FILE: profile/README.md
       LANGBOX_BLOCK_START: <!-- lang-box start -->
       LANGBOX_BLOCK_END: <!-- lang-box end -->
     steps:
       - name: Checkout profile repo
         uses: actions/checkout@v2
-
-      - name: Set up Go
-        uses: actions/setup-go@v4
         with:
-          go-version: '1.20'
-
-      - name: Install github-linguist
-        run: |
-          sudo gem install github-linguist
+          path: profile
 
       - name: Clone lang-box repo
         run: |
@@ -50,8 +43,10 @@ jobs:
 
       - name: Commit and push README.md
         run: |
+          cd profile
           git config --global user.name 'LangBox-Bot'
-          git config --global user.email 'langbox-bot@github.com'
+          git config --global user.email 'bot@github.com'
           git add README.md
           git commit -m 'chore: update language stats [bot]' || echo 'No changes to commit'
-          git pull && git push
+          git pull --rebase
+          git push
