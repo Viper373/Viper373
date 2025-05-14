@@ -10,7 +10,7 @@
 - 🏫 毕业院校丨[BIPT（北京石油化工学院）](https://www.bipt.edu.cn)
 - 🎯 研学专业丨大数据管理与应用
 - 🌊 现在职业丨摆烂人生
-- 🌶 16型人格丨~~[ESFJ-T](https://www.16personalities.com/ch/esfj-人格)~~ [提倡者 (INFJ-T)](https://www.16personalities.com/ch/infj-人格)
+- 🌶 16型人格丨<del>[执政官 (ESFJ-T)](https://www.16personalities.com/ch/esfj-人格)</del> [提倡者 (INFJ-T)](https://www.16personalities.com/ch/infj-人格)
 - 🌱 格言丨雄关漫道真如铁，而今迈步从头越
 - 🎮 游戏丨[英雄联盟][Counter:Strike 2]
 - 🚩 居住地丨中国，甘肃，庆阳，镇原
