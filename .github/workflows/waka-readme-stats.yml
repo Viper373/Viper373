@@ -28,4 +28,4 @@ jobs:
           SHOW_LOC_CHART: "False"
           SYMBOL_VERSION: "3"
           DEBUG_LOGGING: "False"
-          SHOW_TIMEZONE: "False"
+          SHOW_TIMEZONE: "True"
