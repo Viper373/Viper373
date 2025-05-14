@@ -35,8 +35,10 @@ jobs:
       - name: Install Ruby and github-linguist
         run: |
           sudo apt-get update
-          sudo apt-get install cmake pkg-config libicu-dev zlib1g-dev libcurl4-openssl-dev libssl-dev ruby-dev
+          sudo apt-get install -y cmake pkg-config libicu-dev zlib1g-dev libcurl4-openssl-dev libssl-dev ruby-dev git make gcc
           sudo gem install github-linguist
+      - name: Check github-linguist version
+        run: github-linguist --version
       - name: Clone and build lang-box-go
         run: |
           git clone https://github.com/Viper373/lang-box-go.git
@@ -52,3 +54,4 @@ jobs:
           git diff
           git add README.md && git commit -m ":memo: update profile" || exit 0
           git pull --rebase && git push
+      
