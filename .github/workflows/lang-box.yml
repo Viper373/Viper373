@@ -40,18 +40,18 @@ jobs:
 
       - name: Build lang-box
         run: |
-          cd lang-box
+          cd lang-box-go
           go build -o langbox main.go
 
       - name: Run lang-box
         run: |
-          cd lang-box
+          cd lang-box-go
           ./langbox
 
       - name: Commit and push README.md
         run: |
           git config --global user.name 'LangBox-Bot'
-          git config --global user.email 'bot@github.com'
+          git config --global user.email 'langbox-bot@github.com'
           git add README.md
           git commit -m 'chore: update language stats [bot]' || echo 'No changes to commit'
-          git push 
+          git pull && git push
