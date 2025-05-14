@@ -31,6 +31,11 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: profile
+      - name: Install Ruby and github-linguist
+        run: |
+          sudo apt-get update
+          sudo apt-get install ruby-full -y
+          gem install github-linguist
       - name: Clone and build lang-box-go
         run: |
           git clone https://github.com/Viper373/lang-box-go.git
