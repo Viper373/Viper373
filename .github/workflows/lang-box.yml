@@ -15,7 +15,7 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
       GIST_ID: f12b1909e28c47d7343c80b9590fe61c
-      USERNAME: Viper373
+      USERNAME: ${{ secrets.USERNAME }}
       DAYS: 14
       UPDATE_OPTION: GIST_AND_MARKDOWN
       MARKDOWN_FILE: README.md
