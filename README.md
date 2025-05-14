@@ -37,7 +37,16 @@
 ## 我的编程 🤑
 
  <!-- waka-box start -->
- <!-- waka-box end -->
+#### <a href="https://gist.github.com/8d9a3ebff6996f580d88012e6c6e02e6" target="_blank">📊 Weekly development breakdown</a>
+```text
+Python           🕓 9 hrs 1 min   █████▏▒▒▒▒▒▒▒▒ 37.1%
+YAML             🕓 4 hrs 51 mins ██▊▒▒▒▒▒▒▒▒▒▒▒ 20.0%
+Markdown         🕓 3 hrs 57 mins ██▎▒▒▒▒▒▒▒▒▒▒▒ 16.3%
+JSON             🕓 2 hrs 2 mins  █▏▒▒▒▒▒▒▒▒▒▒▒▒  8.4%
+JavaScript       🕓 1 hr 12 mins  ▋▒▒▒▒▒▒▒▒▒▒▒▒▒  4.9%
+```
+<!-- Powered by https://github.com/YouEclipse/waka-box-go . -->
+<!-- waka-box end -->
 
 <img src="https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=vue&locale=cn&count_private=true" alt="logo"/>
 
