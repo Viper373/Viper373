@@ -18,7 +18,7 @@ jobs:
       USERNAME: ${{ secrets.USERNAME }}
       DAYS: 14
       UPDATE_OPTION: GIST_AND_MARKDOWN
-      MARKDOWN_FILE: README.md
+      MARKDOWN_FILE: profile/README.md
       LANGBOX_BLOCK_START: <!-- lang-box start -->
       LANGBOX_BLOCK_END: <!-- lang-box end -->
     steps:
