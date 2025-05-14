@@ -1,0 +1,32 @@
+name: Update Netease Music Box
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Update-gist
+    runs-on: ubuntu-latest
+    env:
+      NETEASE_USER_ID: ${{ secrets.NETEASE_USER_ID }}
+      NETEASE_USER_TOKEN: ${{ secrets.NETEASE_USER_TOKEN }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      GIST_ID: 0de3f9fc7f3078a800f738e25eccea54
+    steps:
+      - name: Set up Go 1.x
+        uses: actions/setup-go@v2
+        with:
+          go-version: ^1.14
+        id: go
+
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v2
+
+      - name: Update-gist
+        run: go run ./cmd/box/main.go
