@@ -1,6 +1,10 @@
 name: Waka Readme
 
 on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
   schedule:
     # Runs at 12am IST
     - cron: '30 18 * * *'
