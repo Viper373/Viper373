@@ -1,8 +1,9 @@
 name: Update NetEase-music-box
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  pull_request:
+    branches: [main]
   schedule:
     - cron: "0 0 * * *"
 
