@@ -34,7 +34,7 @@ jobs:
       - name: Install Ruby and github-linguist
         run: |
           sudo apt-get update
-          sudo apt-get install ruby-full -y
+          sudo apt-get install cmake pkg-config libicu-dev zlib1g-dev libcurl4-openssl-dev libssl-dev ruby-dev
           sudo gem install github-linguist
       - name: Clone and build lang-box-go
         run: |
@@ -51,4 +51,3 @@ jobs:
           git diff
           git add README.md && git commit -m ":memo: update profile" || exit 0
           git pull --rebase && git push
-      
