@@ -1,0 +1,21 @@
+name: Update gist
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: yarn install
+      - name: Update gist
+        uses: ./
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: 0de3f9fc7f3078a800f738e25eccea54
+          USER_ID: ${{ secrets.USER_ID }}
+          USER_TOKEN: ${{ secrets.USER_TOKEN }}
