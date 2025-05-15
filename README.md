@@ -18,7 +18,7 @@
 - 🚩 居住地丨中国，甘肃，庆阳，镇原
 - 📬 邮箱丨2483523414@qq.com
 
-![Viper3's MoeCounter](https://count.getloli.com/@Viper3?name=Viper3&theme=booru-lewd&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto&num=3712)
+![Viper3](https://count.getloli.com/@Viper3?name=Viper3&theme=booru-lewd&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto&num=3712)
 
 <table>
 <tr>
