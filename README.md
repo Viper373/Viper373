@@ -57,11 +57,11 @@ JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  
 <!-- netease-music-box start -->
 #### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
 ```text
-🥇 这，就是爱 - 张杰			18次    
-🥈 My Type - T...			4次    
-🥉 Off The Hoo...			4次    
-🏅 平凡的一天 - 毛不易			3次    
-🏅 千秋令 - 银临/KB...			3次    
+🥇 这，就是爱 - 张杰			17次    
+🥈 My Type - T...			3次    
+🥉 Young - The...			3次    
+🏅 不要说话 - 陈奕迅			3次    
+🏅 吹灭小山河 - 国风堂...			3次    
 ```
 <!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
