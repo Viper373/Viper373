@@ -86,15 +86,13 @@ Go            +379/   -620 █▋░░░░░░░░░░░░░░░�
 
 <!-- netease-music-box start -->
 #### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
-
 ```text
-🥇 这，就是爱 - 张杰			21次    
+🥇 这，就是爱 - 张杰			22次    
 🥈 My Type - T...			3次    
 🥉 Young - The...			3次    
 🏅 不要说话 - 陈奕迅			3次    
 🏅 吹灭小山河 - 国风堂...			3次    
 ```
-
 <!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
 
