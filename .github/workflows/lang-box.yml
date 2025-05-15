@@ -10,48 +10,52 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    name: Update-lang-box-stats
-    runs-on: ubuntu-latest
-    env:
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      GIST_ID: f12b1909e28c47d7343c80b9590fe61c
-      USERNAME: ${{ secrets.USERNAME }}
-      DAYS: 14
-      UPDATE_OPTION: GIST_AND_MARKDOWN
-      MARKDOWN_FILE: profile/README.md
-      LANGBOX_BLOCK_START: <!-- lang-box start -->
-      LANGBOX_BLOCK_END: <!-- lang-box end -->
+  run:
+    runs-on: ubuntu-22.04
     steps:
-      - name: Set up Go 1.x
-        uses: actions/setup-go@v2
+      - name: 检出个人资料仓库
+        uses: actions/checkout@v3
         with:
-          go-version: ^1.20
-        id: go
-      - name: Check out profile repo
-        uses: actions/checkout@v2
+          path: profile-repo
+          fetch-depth: 1
+
+      - name: 检出lang-box仓库
+        uses: actions/checkout@v3
         with:
-          path: profile
-      - name: Install Ruby and github-linguist
+          repository: Viper373/lang-box
+          path: lang-box
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: "npm"
+          cache-dependency-path: lang-box/package-lock.json
+
+      - name: 安装依赖
+        working-directory: lang-box
         run: |
           sudo apt-get update
-          sudo apt-get install -y cmake pkg-config libicu-dev zlib1g-dev libcurl4-openssl-dev libssl-dev ruby-dev git make gcc
+          sudo apt-get install -y cmake pkg-config libicu-dev zlib1g-dev libcurl4-openssl-dev libssl-dev ruby-dev
           sudo gem install github-linguist
-      - name: Check github-linguist version
-        run: github-linguist --version
-      - name: Clone and build lang-box-go
+          npm install
+
+      - name: 运行语言统计
+        working-directory: lang-box
+        run: npm start
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: f12b1909e28c47d7343c80b9590fe61c
+          USERNAME: ${{ github.actor }}
+          
+      - name: 提交更新的README
+        working-directory: profile-repo
         run: |
-          git clone https://github.com/Viper373/lang-box-go.git
-          cd lang-box-go && go build -o langbox main.go
-          mv ./langbox ../ && cd .. && rm -rf lang-box-go/
-      - name: Run lang-box
-        run: ./langbox
-      - name: Commit and push
-        run: |
-          cd profile
+          git config --global user.name "LangBot"
           git config --global user.email "bot@github.com"
-          git config --global user.name "LangBox-Bot"
-          git diff
-          git add README.md && git commit -m ":memo: update profile" || exit 0
-          git pull --rebase && git push
-      
+          git add README.md
+          git commit -m "更新语言使用统计 [自动]" || echo "无需提交更新"
+          git pull && git push
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
