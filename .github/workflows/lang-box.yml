@@ -7,10 +7,9 @@ on:
     branches: [main]
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
 
 jobs:
-  run:
+  Update-Lang-Box-Stats:
     runs-on: ubuntu-22.04
     steps:
       - name: 检出个人资料仓库
@@ -22,7 +21,7 @@ jobs:
       - name: 检出lang-box仓库
         uses: actions/checkout@v3
         with:
-          repository: inokawa/lang-box
+          repository: Viper373/lang-box
           path: lang-box
           fetch-depth: 1
 
