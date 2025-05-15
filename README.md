@@ -1,6 +1,8 @@
 # 你好，很高兴认识你！👋
 
-小暮笙丨Viper373
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=25&letterSpacing=0.15rem&duration=3000&color=FF53B4&vCenter=true&multiline=true&width=435&height=45&lines=Viper373%E4%B8%A8%E5%B0%8F%E6%9A%AE%E7%AC%99)](https://git.io/typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Concert+One&size=25&letterSpacing=0.1rem&duration=3000&color=08D2AB&vCenter=true&multiline=true&width=435&height=80&lines=A+Python+Developer;Always+Debug+Life)](https://git.io/typing-svg)
 
 一个破烂爬虫开发者丨前端又菜又爱玩丨啥都会点丨9年老烟民 🤣
 
