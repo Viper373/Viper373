@@ -25,9 +25,7 @@
  <td valign="top" width="40%">
 
 <!-- waka-box start -->
-
 #### <a href="https://gist.github.com/8d9a3ebff6996f580d88012e6c6e02e6" target="_blank">📊 Weekly development breakdown</a>
-
 ```text
 YAML             🕓 6 hrs 59 mins ████▏░░░░░░░░░ 30.0%
 Python           🕓 5 hrs 1 min   ███░░░░░░░░░░░ 21.5%
@@ -35,7 +33,6 @@ Markdown         🕓 4 hrs 39 mins ██▊░░░░░░░░░░░ 1
 Go               🕓 2 hrs 31 mins █▌░░░░░░░░░░░░ 10.8%
 JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  3.8%
 ```
-
 <!-- Powered by https://github.com/YouEclipse/waka-box-go . -->
 <!-- waka-box end -->
 
@@ -44,9 +41,7 @@ JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  
 <td valign="top" width="40%">
 
 <!-- steam-box start -->
-
 #### <a href="https://gist.github.com/64b6ce7b21a7d554b10b5a105b716ec7" target="_blank">🎮 Steam playtime leaderboard</a>
-
 ```text
 🔫 Counter-Strike 2                 🕘 1052 hrs 24 mins
 🎮 Apex Legends                     🕘 173 hrs 49 mins
@@ -54,7 +49,6 @@ JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  
 🎮 Cities: Skylines                 🕘 61 hrs 0 mins
 💻 Wallpaper Engine                 🕘 57 hrs 28 mins
 ```
-
 <!-- Powered by https://github.com/YouEclipse/steam-box . -->
 <!-- steam-box end -->
 
