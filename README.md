@@ -20,8 +20,8 @@
 
 <table>
 <tr>
-<td valign="top" width="48%">
- 
+ <td valign="top" width="46%">
+  
 <!-- waka-box start -->
 #### <a href="https://gist.github.com/8d9a3ebff6996f580d88012e6c6e02e6" target="_blank">📊 Weekly development breakdown</a>
 ```text
@@ -34,9 +34,9 @@ JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  
 <!-- Powered by https://github.com/YouEclipse/waka-box-go . -->
 <!-- waka-box end -->
 
-</td>
+ </td>
 
-<td valign="top" width="48%">
+<td valign="top" width="46%">
  
 <!-- steam-box start -->
 #### <a href="https://gist.github.com/64b6ce7b21a7d554b10b5a105b716ec7" target="_blank">🎮 Steam playtime leaderboard</a>
@@ -50,10 +50,12 @@ JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  
 <!-- Powered by https://github.com/YouEclipse/steam-box . -->
 <!-- steam-box end -->
 
-</td>
+ </td>
 </tr>
-</table>
 
+<tr>
+ <td valign="top" width="46%">
+  
 <!-- netease-music-box start -->
 #### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
 ```text
@@ -66,7 +68,16 @@ JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  
 <!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
 
+ </td>
 
+ <td valign="top" width="46%">
+  
+<!-- lang-box start -->
+<!-- lang-box end -->
+
+ </td>
+ </tr>
+</table>
 
 <img src="https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=vue&locale=cn&count_private=true" alt="logo"/>
 
@@ -75,13 +86,3 @@ JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  
 
 
 
-<!-- lang-box start -->
-
-
-
-<!-- lang-box start -->
-Go         +     68/-     25 ░░░░░░░░░░░░░░░░░░░░░  0.0%
-Go Module  +     10/-      1 ░░░░░░░░░░░░░░░░░░░░░  0.0%
-Go Checks… +     30/-      0 ░░░░░░░░░░░░░░░░░░░░░  0.0%
-YAML       +      9/-      0 ░░░░░░░░░░░░░░░░░░░░░  0.0%
-<!-- lang-box end -->
