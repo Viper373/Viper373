@@ -18,11 +18,12 @@
 - 🚩 居住地丨中国，甘肃，庆阳，镇原
 - 📬 邮箱丨2483523414@qq.com
 
-![Viper3](https://count.getloli.com/@Viper3?name=Viper3&theme=booru-lewd&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto&num=3712)
+![Viper373](https://count.getloli.com/@Viper373?name=Viper373&theme=booru-lewd&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
 
-<table>
-<tr>
- <td valign="top" width="40%">
+<img src="https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=vue&locale=cn&count_private=true" alt="logo"/>
+
+![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/overview.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/languages.svg#gh-light-mode-only)
 
 <!-- waka-box start -->
 #### <a href="https://gist.github.com/8d9a3ebff6996f580d88012e6c6e02e6" target="_blank">📊 Weekly development breakdown</a>
@@ -36,9 +37,17 @@ JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  
 <!-- Powered by https://github.com/YouEclipse/waka-box-go . -->
 <!-- waka-box end -->
 
-</td>
-
-<td valign="top" width="40%">
+<!-- lang-box start -->
+#### <a href="https://gist.github.com/f12b1909e28c47d7343c80b9590fe61c" target="_blank">💻 Recent coding in languages</a>
+```text
+JSON         +6.4k/  -5.8k ████▌░░░░░░░░░░░░░░░░ 21.8%
+YAML         +3.0k/  -2.0k ████▎░░░░░░░░░░░░░░░░ 20.3%
+TypeScript   +2.0k/   -533 ████▏░░░░░░░░░░░░░░░░ 19.7%
+Markdown      +451/   -362 █▉░░░░░░░░░░░░░░░░░░░  9.3%
+Go            +380/   -620 █▋░░░░░░░░░░░░░░░░░░░  7.8%
+```
+<!-- Powered by https://github.com/Viper373/lang-box . -->
+<!-- lang-box end -->
 
 <!-- steam-box start -->
 #### <a href="https://gist.github.com/64b6ce7b21a7d554b10b5a105b716ec7" target="_blank">🎮 Steam playtime leaderboard</a>
@@ -52,33 +61,10 @@ JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  
 <!-- Powered by https://github.com/YouEclipse/steam-box . -->
 <!-- steam-box end -->
 
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
- <td valign="top" width="40%">
-
-<!-- lang-box start -->
-#### <a href="https://gist.github.com/f12b1909e28c47d7343c80b9590fe61c" target="_blank">💻 Recent coding in languages</a>
-```text
-JSON         +6.4k/  -5.8k ████▌░░░░░░░░░░░░░░░░ 21.8%
-YAML         +3.0k/  -2.0k ████▎░░░░░░░░░░░░░░░░ 20.3%
-TypeScript   +2.0k/   -532 ████▏░░░░░░░░░░░░░░░░ 19.7%
-Markdown      +451/   -362 █▉░░░░░░░░░░░░░░░░░░░  9.3%
-Go            +380/   -620 █▋░░░░░░░░░░░░░░░░░░░  7.8%
-```
-<!-- Powered by https://github.com/Viper373/lang-box . -->
-<!-- lang-box end -->
-
-</td>
- <td valign="top" width="40%">
-
 <!-- netease-music-box start -->
 #### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
 ```text
-🥇 这，就是爱 - 张杰			26次    
+🥇 这，就是爱 - 张杰			23次    
 🥈 My Type - T...			3次    
 🥉 Young - The...			3次    
 🏅 不要说话 - 陈奕迅			3次    
@@ -86,12 +72,3 @@ Go            +380/   -620 █▋░░░░░░░░░░░░░░░�
 ```
 <!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
-
-</td>
- </tr>
-</table>
-
-<img src="https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=vue&locale=cn&count_private=true" alt="logo"/>
-
-![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/overview.svg#gh-light-mode-only)
-![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/languages.svg#gh-light-mode-only)
