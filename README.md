@@ -22,7 +22,7 @@
 
 <table>
 <tr>
- <td valign="top" width="50%">
+ <td valign="top" width="40%">
 
 <!-- waka-box start -->
 
@@ -41,7 +41,7 @@ JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  
 
 </td>
 
-<td valign="top" width="50%">
+<td valign="top" width="40%">
 
 <!-- steam-box start -->
 
@@ -62,7 +62,7 @@ JSON             🕓 52 mins       ▌░░░░░░░░░░░░░  
 </tr>
 
 <tr>
- <td valign="top" width="50%">
+ <td valign="top" width="40%">
 
 <!-- lang-box start -->
 
@@ -80,7 +80,7 @@ Go            +379/   -620 █▋░░░░░░░░░░░░░░░�
 <!-- lang-box end -->
 
 </td>
- <td valign="top" width="50%">
+ <td valign="top" width="40%">
 
 <!-- netease-music-box start -->
 #### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
