@@ -2,17 +2,19 @@ name: GitHub City
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天0点运行
-  workflow_dispatch:     # 允许手动触发
+    - cron: '0 */4 * * *' # 每4小时执行一次
+  workflow_dispatch:
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.skyline.city.svg
-          token: ${{ secrets.METRICS_TOKEN }} # 你可以用自己的token，或者用 public 仓库就填 ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: current-year
@@ -25,3 +27,20 @@ jobs:
               "wait": 4,
               "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
             }
+
+      - name: 切换到 github_city 分支
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin github_city || git checkout --orphan github_city
+          git checkout github_city || git checkout --orphan github_city
+
+      - name: 拷贝生成的文件到分支
+        run: |
+          cp metrics.plugin.skyline.city.svg ./
+
+      - name: 添加并提交更改
+        run: |
+          git add metrics.plugin.skyline.city.svg
+          git commit -m "update skyline city metrics" || echo "No changes to commit"
+          git push origin github_city
