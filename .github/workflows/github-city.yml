@@ -16,7 +16,7 @@ jobs:
       - name: 生成 skyline city metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.skyline.city.svg
+          filename: dist/metrics.plugin.skyline.city.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_skyline: yes
@@ -30,11 +30,12 @@ jobs:
               "wait": 4,
               "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
             }
+          output_action: none   # 关键：不自动 commit 到 main
 
       - name: 推送 skyline city metrics 到 github_city 分支
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: github_city
-          build_dir: .
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
