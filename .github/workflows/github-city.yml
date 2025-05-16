@@ -1,17 +1,27 @@
 name: GitHub City
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.plugin.skyline.city.svg
-  token: NOT_NEEDED
-  base: ""
-  plugin_skyline: yes
-  plugin_skyline_year: 2024
-  plugin_skyline_frames: 120
-  plugin_skyline_quality: 1
-  plugin_skyline_settings: |
-    {
-      "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
-      "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
-      "wait": 4,
-      "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
-    }
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天0点运行
+  workflow_dispatch:     # 允许手动触发
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.skyline.city.svg
+          token: ${{ secrets.METRICS_TOKEN }} # 你可以用自己的token，或者用 public 仓库就填 ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: current-year
+          plugin_skyline_frames: 120
+          plugin_skyline_quality: 1
+          plugin_skyline_settings: |
+            {
+              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
+              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
+              "wait": 4,
+              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
+            }
