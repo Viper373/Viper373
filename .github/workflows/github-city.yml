@@ -8,10 +8,13 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
-      - uses: lowlighter/metrics@latest
+      - name: 生成 skyline city metrics
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.skyline.city.svg
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -28,19 +31,10 @@ jobs:
               "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
             }
 
-      - name: 切换到 github_city 分支
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin github_city || git checkout --orphan github_city
-          git checkout github_city || git checkout --orphan github_city
-
-      - name: 拷贝生成的文件到分支
-        run: |
-          cp metrics.plugin.skyline.city.svg ./
-
-      - name: 添加并提交更改
-        run: |
-          git add metrics.plugin.skyline.city.svg
-          git commit -m "update skyline city metrics" || echo "No changes to commit"
-          git push origin github_city
+      - name: 推送 skyline city metrics 到 github_city 分支
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: github_city
+          build_dir: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
