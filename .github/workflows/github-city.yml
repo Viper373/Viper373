@@ -33,7 +33,7 @@ jobs:
           output_action: none   # 关键：不自动 commit 到 main
 
       - name: 推送 skyline city metrics 到 github_city 分支
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: github_city
           build_dir: dist
