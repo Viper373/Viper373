@@ -16,7 +16,7 @@ jobs:
       - name: 生成 skyline city metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: dist/metrics.plugin.skyline.city.svg
+          filename: metrics.plugin.skyline.city.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_skyline: yes
@@ -36,6 +36,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: github_city
-          build_dir: dist
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
