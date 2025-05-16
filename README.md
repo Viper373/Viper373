@@ -22,10 +22,42 @@
 
 ![Viper373](https://count.getloli.com/@Viper373?name=Viper373&theme=booru-lewd&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
 
-<img src="https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=vue&locale=cn&count_private=true" alt="logo"/>
+<table>
+<tr>
+<td>
+
+![](https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=vue&locale=cn&count_private=true)
+
+</td>
+<td>
+
+![](https://cdn.jsdelivr.net/gh/Viper373/metrics@master/metrics.plugin.skyline.city.svg)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
 
 ![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/overview.svg#gh-light-mode-only)
+
+
+</td>
+<td>
+
 ![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/languages.svg#gh-light-mode-only)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
 
 <!-- waka-box start -->
 #### <a href="https://gist.github.com/8d9a3ebff6996f580d88012e6c6e02e6" target="_blank">📊 Weekly development breakdown</a>
@@ -39,6 +71,9 @@ JavaScript     🕓 1 hr 8 mins   ▉░░░░░░░░░░░░░░�
 <!-- Powered by https://github.com/YouEclipse/waka-box-go . -->
 <!-- waka-box end -->
 
+</td>
+<td>
+
 <!-- lang-box start -->
 #### <a href="https://gist.github.com/f12b1909e28c47d7343c80b9590fe61c" target="_blank">💻 Recent coding in languages</a>
 ```text
@@ -50,6 +85,11 @@ JavaScript     +42/    -24 ▍░░░░░░░░░░░░░░░░�
 ```
 <!-- Powered by https://github.com/Viper373/lang-box . -->
 <!-- lang-box end -->
+
+</td>
+</tr>
+<tr>
+<td>
 
 <!-- steam-box start -->
 #### <a href="https://gist.github.com/64b6ce7b21a7d554b10b5a105b716ec7" target="_blank">🎮 Steam playtime leaderboard</a>
@@ -63,6 +103,9 @@ JavaScript     +42/    -24 ▍░░░░░░░░░░░░░░░░�
 <!-- Powered by https://github.com/YouEclipse/steam-box . -->
 <!-- steam-box end -->
 
+</td>
+<td>
+
 <!-- netease-music-box start -->
 #### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
 ```text
@@ -74,3 +117,8 @@ JavaScript     +42/    -24 ▍░░░░░░░░░░░░░░░░�
 ```
 <!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
+
+</td>
+</tr>
+</table>
+
