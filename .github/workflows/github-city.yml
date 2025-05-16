@@ -30,12 +30,12 @@ jobs:
               "wait": 4,
               "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
             }
-          output_action: none   # 关键：不自动 commit 到 main
+          output_action: none
 
       - name: 推送 skyline city metrics 到 github_city 分支
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: github_city
-          build_dir: .
+          build_dir: metrics_renders
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
