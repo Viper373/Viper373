@@ -82,6 +82,5 @@ JavaScript     +42/    -24 ▍░░░░░░░░░░░░░░░░�
 <td>
 
 <!-- netease-music-box start -->
-#### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
-```text
+<!-- netease-music-box end -->
 </table>
