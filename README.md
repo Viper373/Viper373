@@ -12,9 +12,7 @@
 - 🏫 毕业院校丨[BIPT（北京石油化工学院）](https://www.bipt.edu.cn)
 - 🎯 研学专业丨大数据管理与应用
 - 🌊 现在职业丨摆烂人生
-- 🌶
-  16型人格丨<del>[执政官 (ESFJ-T)](https://www.16personalities.com/ch/esfj-人格)</del>
-  [提倡者 (INFJ-T)](https://www.16personalities.com/ch/infj-人格)
+- 🌶 16型人格丨<del>[执政官 (ESFJ-T)](https://www.16personalities.com/ch/esfj-人格)</del>[提倡者 (INFJ-T)](https://www.16personalities.com/ch/infj-人格)
 - 🌱 格言丨雄关漫道真如铁，而今迈步从头越
 - 🎮 游戏丨[英雄联盟][Counter:Strike 2]
 - 🚩 居住地丨中国，甘肃，庆阳，镇原
@@ -22,37 +20,11 @@
 
 ![Viper373](https://count.getloli.com/@Viper373?name=Viper373&theme=booru-lewd&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
 
-<table>
-<tr>
-<td>
-
-![](https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=vue&locale=cn&count_private=true)
-
-</td>
-<td>
-
-![](https://cdn.jsdelivr.net/gh/Viper373/metrics@master/metrics.plugin.skyline.city.svg)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td>
-
+<img src="https://github-readme-stats-one-iota-51.vercel.app/api?username=Viper373&show_icons=true&theme=vue&locale=cn&count_private=true" alt="GitHub Stats"/>
+<img src="https://cdn.jsdelivr.net/gh/Viper373/metrics@master/metrics.plugin.skyline.city.svg" alt="Github City"/>
 
 ![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/overview.svg#gh-light-mode-only)
-
-
-</td>
-<td>
-
 ![](https://raw.githubusercontent.com/Viper373/github-stats/master/generated/languages.svg#gh-light-mode-only)
-
-</td>
-</tr>
-</table>
 
 <table>
 <tr>
@@ -62,11 +34,11 @@
 <!-- waka-box start -->
 #### <a href="https://gist.github.com/8d9a3ebff6996f580d88012e6c6e02e6" target="_blank">📊 Weekly development breakdown</a>
 ```text
-YAML           🕓 7 hrs 41 mins ██████▍░░░░░░░░░ 40.6%
-Go             🕓 3 hrs 53 mins ███▎░░░░░░░░░░░░ 20.6%
-Python         🕓 2 hrs 11 mins █▊░░░░░░░░░░░░░░ 11.6%
-Markdown       🕓 2 hrs 8 mins  █▊░░░░░░░░░░░░░░ 11.3%
-JavaScript     🕓 1 hr 8 mins   ▉░░░░░░░░░░░░░░░  6.0%
+YAML           🕓 7 hrs 54 mins ██████▌░░░░░░░░░ 40.8%
+Go             🕓 3 hrs 53 mins ███▏░░░░░░░░░░░░ 20.1%
+Python         🕓 3 hrs 8 mins  ██▌░░░░░░░░░░░░░ 16.2%
+Markdown       🕓 2 hrs 7 mins  █▋░░░░░░░░░░░░░░ 10.9%
+JavaScript     🕓 1 hr 8 mins   ▉░░░░░░░░░░░░░░░  5.9%
 ```
 <!-- Powered by https://github.com/YouEclipse/waka-box-go . -->
 <!-- waka-box end -->
@@ -77,11 +49,11 @@ JavaScript     🕓 1 hr 8 mins   ▉░░░░░░░░░░░░░░�
 <!-- lang-box start -->
 #### <a href="https://gist.github.com/f12b1909e28c47d7343c80b9590fe61c" target="_blank">💻 Recent coding in languages</a>
 ```text
-Markdown      +717/   -600 ████████████████▎░░░░ 77.9%
-YAML          +290/   -242 ████░░░░░░░░░░░░░░░░░ 19.3%
-JavaScript     +21/    -12 ▏░░░░░░░░░░░░░░░░░░░░  1.1%
-Python         +20/     -6 ▏░░░░░░░░░░░░░░░░░░░░  0.7%
-TypeScript     +14/    -14 ░░░░░░░░░░░░░░░░░░░░░  0.6%
+Markdown      +719/   -650 ████████████▏░░░░░░░░ 58.1%
+JSON          +317/   -182 ███▊░░░░░░░░░░░░░░░░░ 18.1%
+YAML          +507/   -291 ███▋░░░░░░░░░░░░░░░░░ 17.6%
+Go             +82/    -93 ▊░░░░░░░░░░░░░░░░░░░░  4.1%
+JavaScript     +42/    -24 ▍░░░░░░░░░░░░░░░░░░░░  1.9%
 ```
 <!-- Powered by https://github.com/Viper373/lang-box . -->
 <!-- lang-box end -->
@@ -112,16 +84,4 @@ TypeScript     +14/    -14 ░░░░░░░░░░░░░░░░░�
 <!-- netease-music-box start -->
 #### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
 ```text
-🥇 这，就是爱 - 张杰			29次    
-🥈 第57次取消发送 - 菲菲公主...			3次    
-🥉 手中沙 - 张杰				2次    
-🏅 忘记时间 - 胡歌			1次    
-🏅 Big Words - Kla...			1次    
-```
-<!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
-<!-- netease-music-box end -->
-
-</td>
-</tr>
 </table>
-
