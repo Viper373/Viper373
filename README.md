@@ -82,5 +82,14 @@ JavaScript     +42/    -24 ▍░░░░░░░░░░░░░░░░�
 <td>
 
 <!-- netease-music-box start -->
+#### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
+```text
+🥇 这，就是爱 - 张杰			29次    
+🥈 第57次取消发送 - 菲菲公主...			3次    
+🥉 手中沙 - 张杰				2次    
+🏅 忘记时间 - 胡歌			1次    
+🏅 Big Words - Kla...			1次    
+```
+<!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
 </table>
