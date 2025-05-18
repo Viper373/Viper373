@@ -87,8 +87,8 @@ JavaScript      +2/     -2 ░░░░░░░░░░░░░░░░░�
 🥇 第57次取消发送 - 菲菲公主...			35次    
 🥈 这，就是爱 - 张杰			31次    
 🥉 Find Our Way - ...			2次    
+🏅 如果的事 (Live) - 张...			2次    
 🏅 风铃 - 蒋孜怡				2次    
-🏅 人间最值得 - 李常超 (La...			2次    
 ```
 <!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
