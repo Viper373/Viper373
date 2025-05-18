@@ -86,9 +86,9 @@ JavaScript      +2/     -2 ░░░░░░░░░░░░░░░░░�
 ```text
 🥇 第57次取消发送 - 菲菲公主...			35次    
 🥈 这，就是爱 - 张杰			31次    
-🥉 人间最值得 - 李常超 (La...			2次    
+🥉 Find Our Way - ...			2次    
+🏅 人间最值得 - 李常超 (La...			2次    
 🏅 手中沙 - 张杰				2次    
-🏅 忘记时间 - 胡歌			1次    
 ```
 <!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
