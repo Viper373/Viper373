@@ -85,7 +85,7 @@ JSON            +4/     -4 ░░░░░░░░░░░░░░░░░�
 #### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
 ```text
 🥇 第57次取消发送 - 菲菲公主...			35次    
-🥈 这，就是爱 - 张杰			31次    
+🥈 这，就是爱 - 张杰			18次    
 🥉 Find Our Way - ...			2次    
 🏅 如果的事 (Live) - 张...			2次    
 🏅 风铃 - 蒋孜怡				2次    
