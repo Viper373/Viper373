@@ -84,11 +84,11 @@ Python          +5/     -2 ▏░░░░░░░░░░░░░░░░�
 <!-- netease-music-box start -->
 #### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
 ```text
-🥇 第57次取消发送 - 菲菲公主...			33次    
-🥈 这，就是爱 - 张杰			3次    
-🥉 Find Our Way - ...			2次    
-🏅 如果的事 (Live) - 张...			2次    
-🏅 风铃 - 蒋孜怡				2次    
+🥇 A Thousand Year...			3次    
+🥈 Post Malone - S...			3次    
+🥉 It All Started ...			3次    
+🏅 11 - 队长/黄礼格			2次    
+🏅 那些年 - 胡夏				1次    
 ```
 <!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
