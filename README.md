@@ -82,11 +82,11 @@ JSON           +11/     -1 ░░░░░░░░░░░░░░░░░�
 <!-- netease-music-box start -->
 #### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
 ```text
-🥇 A Thousand Year...			3次    
-🥈 Post Malone - S...			3次    
-🥉 It All Started ...			3次    
-🏅 Inferno - Hechm...			2次    
-🏅 劝学 - 银河系长			2次    
+🥇 Inferno - Hechm...			2次    
+🥈 劝学 - 银河系长			2次    
+🥉 CHINA-夏夜 - 徐梦圆			2次    
+🏅 中间人 - Ice Paper			1次    
+🏅 Trampoline - Sh...			1次    
 ```
 <!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
