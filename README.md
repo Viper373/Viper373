@@ -66,7 +66,7 @@ YAML           +46/     -2 ▌░░░░░░░░░░░░░░░░�
 <!-- steam-box start -->
 #### <a href="https://gist.github.com/64b6ce7b21a7d554b10b5a105b716ec7" target="_blank">🎮 Steam playtime leaderboard</a>
 ```text
-🔫 Counter-Strike 2                 🕘 1072 hrs 53 mins
+🔫 Counter-Strike 2                 🕘 1073 hrs 31 mins
 🎮 Apex Legends                     🕘 173 hrs 49 mins
 🎮 Raft                             🕘 97 hrs 33 mins
 🎮 Cities: Skylines                 🕘 61 hrs 0 mins
