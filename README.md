@@ -81,11 +81,11 @@ YAML           +46/     -2 ▌░░░░░░░░░░░░░░░░�
 <!-- netease-music-box start -->
 #### <a href="https://gist.github.com/0de3f9fc7f3078a800f738e25eccea54" target="_blank">🎵 Weekly Listen Music Rank</a>
 ```text
-🥇 Inferno - Hechm...			2次    
-🥈 劝学 - 银河系长			2次    
-🥉 CHINA-夏夜 - 徐梦圆			2次    
-🏅 中间人 - Ice Paper			1次    
-🏅 Trampoline - Sh...			1次    
+🥇 We Found Love -...			5次    
+🥈 Love You Like a...			5次    
+🥉 I Need a Doctor...			5次    
+🏅 A Thousand Year...			5次    
+🏅 一天一天（钢琴版） - 天逸			5次    
 ```
 <!-- Powered by https://github.com/Viper373/netease-music-box-go . -->
 <!-- netease-music-box end -->
