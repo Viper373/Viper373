@@ -47,7 +47,7 @@ Markdown 🕓 0 secs █▍░░░░░░░░░░░░░░░░░�
 <!-- lang-box start -->
 #### <a href="https://gist.github.com/f12b1909e28c47d7343c80b9590fe61c" target="_blank">💻 Recent coding in languages</a>
 ```text
-Markdown      +305/   -311 █████████████████████100.0%
+Markdown      +304/   -310 █████████████████████100.0%
 ```
 <!-- Powered by https://github.com/Viper373/lang-box . -->
 <!-- lang-box end -->
