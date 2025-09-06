@@ -70,8 +70,8 @@ TypeScript    +257/   -141 ██▎░░░░░░░░░░░░░░�
 🔫 Counter-Strike 2                 🕘 1232 hrs 27 mins
 🎮 Apex Legends                     🕘 173 hrs 49 mins
 🎮 Raft                             🕘 97 hrs 33 mins
+🎮 Bongo Cat                        🕘 87 hrs 6 mins
 🎮 Cities: Skylines                 🕘 61 hrs 0 mins
-💻 Wallpaper Engine                 🕘 57 hrs 29 mins
 ```
 <!-- Powered by https://github.com/YouEclipse/steam-box . -->
 <!-- steam-box end -->
