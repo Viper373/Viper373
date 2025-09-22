@@ -34,11 +34,7 @@
 <!-- waka-box start -->
 #### <a href="https://gist.github.com/8d9a3ebff6996f580d88012e6c6e02e6" target="_blank">📊 Weekly development breakdown</a>
 ```text
-Python           🕓 6 hrs 53 mins █████████████▉ 99.3%
-Text             🕓 1 min         ░░░░░░░░░░░░░░  0.4%
-YAML             🕓 1 min         ░░░░░░░░░░░░░░  0.3%
-JavaScript       🕓 0 secs        ░░░░░░░░░░░░░░  0.0%
-Requirements.txt 🕓 0 secs        ░░░░░░░░░░░░░░  0.0%
+Still Gathering Statistics...
 ```
 <!-- Powered by https://github.com/YouEclipse/waka-box-go . -->
 <!-- waka-box end -->
