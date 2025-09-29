@@ -34,7 +34,11 @@
 <!-- waka-box start -->
 #### <a href="https://gist.github.com/8d9a3ebff6996f580d88012e6c6e02e6" target="_blank">📊 Weekly development breakdown</a>
 ```text
-Still Gathering Statistics...
+Python           🕓 48 mins ████████████▊░░░░░░░ 64.2%
+GitIgnore file   🕓 18 mins ████▉░░░░░░░░░░░░░░░ 24.8%
+Markdown         🕓 6 mins  █▋░░░░░░░░░░░░░░░░░░  8.5%
+YAML             🕓 1 min   ▌░░░░░░░░░░░░░░░░░░░  2.6%
+Requirements.txt 🕓 0 secs  ░░░░░░░░░░░░░░░░░░░░  0.0%
 ```
 <!-- Powered by https://github.com/YouEclipse/waka-box-go . -->
 <!-- waka-box end -->
